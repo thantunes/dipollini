@@ -4,6 +4,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 48,
         "simulationBehavior": "default"
       }
     }
@@ -15,7 +16,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 48,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -27,7 +28,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 48,
         "simulationBehavior": "default"
       }
     }
@@ -38,7 +39,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 48,
         "simulationBehavior": "default"
       }
     }
@@ -49,7 +50,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 48,
         "simulationBehavior": "default"
       }
     }
