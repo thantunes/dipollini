@@ -1,0 +1,88 @@
+{
+    "store.custom#trabalheconosco":{
+      "blocks":[
+        "flex-layout.row#trabalheconoscoContent"
+      ]
+    },
+    "flex-layout.row#trabalheconoscoContent":{
+      "props":{
+        "blockClass":"trabalheconoscoContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#trabalheconoscoLinks-container",
+        "rich-text#trabalheconoscoContent"
+      ]
+    },
+    "flex-layout.col#trabalheconoscoLinks-container":{
+      "props":{
+        "blockClass":"quemsomosLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#trabalheconoscoLinks"
+      ]
+    },
+    "flex-layout.col#trabalheconoscoLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#promocao",
+        "rich-text#garantia",
+        "rich-text#politicadeprivacidade",
+        "rich-text#trabalheconosco"
+      ]
+    },
+   
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconoscoContent":{
+      "props":{
+        "text":"# TRABALHE CONOSCO \n\n **Caso esteja interessado em fazer parte de nossa equipe, envie um e-mail com o seu currículo para rh@dipollini.com.br.** \n\n Seu perfil será analisado por nosso setor de Recursos Humanos com base nas vagas disponíveis e entraremos em contato, caso seja selecionado. \n\n **Boa Sorte**",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

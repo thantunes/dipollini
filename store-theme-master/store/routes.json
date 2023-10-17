@@ -1,0 +1,49 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#quemsomos":{
+    "path":"/institucional/quem-somos"
+  },
+  "store.custom#promocao":{
+    "path":"/institucional/promocao"
+  },
+  "store.custom#trabalheconosco":{
+    "path":"/institucional/trabalhe-conosco"
+  },
+  "store.custom#garantia":{
+    "path":"/institucional/garantia"
+  },
+  "store.custom#politica":{
+    "path":"/institucional/politica-de-privacidade"
+  },
+
+  "store.custom#duvidas":{
+    "path":"/institucional/duvidas-frequentes"
+  },
+
+  "store.custom#entrega":{
+    "path":"/institucional/entrega"
+  },
+  "store.custom#troca":{
+    "path":"/institucional/troca"
+  },
+  "store.custom#comocomprar":{
+    "path":"/institucional/como-comprar"
+  },
+  "store.custom#nossas-lojas":{
+    "path":"/institucional/nossas-lojas"
+  },
+
+  "store.custom#regulamentos":{
+    "path":"/institucional/regulamentos"
+  }
+
+}
+

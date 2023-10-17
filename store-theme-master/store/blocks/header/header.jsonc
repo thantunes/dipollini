@@ -1,0 +1,446 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link"
+   //   "horizontalAlign": "center",
+   //   "preventHorizontalStretch": true,
+   //   "preventVerticalStretch": true,
+ //     "fullWidth": true
+    },
+    "children": [
+
+
+
+    //  "vtex.menu@2.x:menu#websites",
+    //  "flex-layout.col#spacer",
+    //  "vtex.menu@2.x:menu#institutional"
+    "flex-layout.row#barra-topo-header"
+    ]
+  },
+
+
+
+  "flex-layout.row#barra-topo-header":{
+    "children": [
+      "flex-layout.col#frete-gratis",
+      "flex-layout.col#parcelamento",
+      "flex-layout.col#pix",
+      "flex-layout.col#troca"
+
+    ]
+  },
+
+
+  "flex-layout.col#frete-gratis":{
+    "children": [
+      "rich-text#frete-gratis"
+    ]
+  },
+
+  "rich-text#frete-gratis": {
+    "props": {
+      "text": "Frete grátis acima de R$500,00 para sp capital",
+      "blockClass": "texto-barra-cinza-topo"
+    }
+  },
+
+  "flex-layout.col#parcelamento":{
+    "children": [
+      "rich-text#parcelamento"
+    ]
+  },
+
+  "rich-text#parcelamento": {
+    "props": {
+      "text": "Parcele em até 6x no cartão",
+      "blockClass": "texto-barra-cinza-topo"
+    }
+  },
+
+
+  "flex-layout.col#pix":{
+    "children": [
+      "rich-text#pix"
+    ]
+  },
+
+  "rich-text#pix": {
+    "props": {
+      "text": "5% off no pix",
+      "blockClass": "texto-barra-cinza-topo"
+    }
+  },
+
+  "flex-layout.col#troca":{
+    "children": [
+      "rich-text#troca"
+    ]
+  },
+  "rich-text#troca": {
+    "props": {
+      "text": "primeira troca grátis",
+      "blockClass": "texto-barra-cinza-topo"
+    }
+  },
+
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "login/cadastre-se",
+      "showIconProfile": true
+    }
+  },
+
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logotipo-dipollini-io.png",
+      "width": "224",
+      "height": "23"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile","search-bar"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "login",
+     
+      "vtex.menu@2.x:menu#masculino-mobile",
+      "vtex.menu@2.x:menu#feminino-mobile",
+      "menu-item#category-apparel",
+      "menu-item#category-home"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logotipo-dipollini-io.png",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#masculino-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-masculino-mobile"
+    },
+    "children": [
+     
+      "menu-item#masculino-mobile"
+    ]
+  },
+
+
+
+  "menu-item#masculino-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#masculino"]
+  },
+  "vtex.menu@2.x:submenu.accordion#masculino": {
+    "children": ["vtex.menu@2.x:menu#footer-masculino-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-masculino-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#maggiore",
+      "menu-item#social",
+      "menu-item#casual",
+      "menu-item#teniscasual",
+      "menu-item#mocassim",
+      "menu-item#botas",
+      "menu-item#sandalias",
+      "menu-item#acessorios",
+      "menu-item#outlet"
+   
+
+    ]
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#feminino-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-feminino-mobile"
+    },
+    "children": [
+     
+      "menu-item#feminino-mobile"
+    ]
+  },
+
+
+
+  "menu-item#feminino-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Feminino",
+        "text": "Feminino"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#feminino"]
+  },
+  "vtex.menu@2.x:submenu.accordion#feminino": {
+    "children": ["vtex.menu@2.x:menu#footer-feminino-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-feminino-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sapatos-feminino",
+      "menu-item#tenis-feminino",
+      "menu-item#sandalias-feminino",
+      "menu-item#sapatilhas-feminino",
+      "menu-item#rasteiras-feminino",
+      "menu-item#botas-feminino",
+      "menu-item#bolsas-feminino"
+   
+
+    ]
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#institucional-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-institucional-mobile"
+    },
+    "children": [
+     
+      "menu-item#institucional-mobile"
+    ]
+  },
+
+
+
+  "menu-item#institucional-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucional": {
+    "children": ["vtex.menu@2.x:menu#footer-institucional-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-institucional-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quem-somos",
+      "menu-item#nossas-lojas",
+      "menu-item#regulamentos",
+      "menu-item#politica",
+      "menu-item#prazo-de-entrega",
+      "menu-item#troca-e-devolucao"
+    ]
+  },
+
+
+
+  "vtex.menu@2.x:menu#ajuda-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-ajuda-mobile"
+    },
+    "children": [
+     
+      "menu-item#ajuda-mobile"
+    ]
+  },
+
+
+
+  "menu-item#ajuda-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ajuda e Suporte",
+        "text": "Ajuda e Suporte"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ajuda"]
+  },
+  "vtex.menu@2.x:submenu.accordion#ajuda": {
+    "children": ["vtex.menu@2.x:menu#footer-ajuda-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-ajuda-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#dividas-frequentes",
+      "menu-item#prazo-de-entrega",
+      "menu-item#troca-e-devolucao",
+      "menu-item#como-comprar",
+      "menu-item#como-comprar"
+    ]
+  },
+
+
+
+  "vtex.menu@2.x:menu#atendimento-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-atendimento-mobile"
+    },
+    "children": [
+     
+      "menu-item#atendimento-mobile"
+    ]
+  },
+
+
+
+  "menu-item#atendimento-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#atendimento"]
+  },
+  "vtex.menu@2.x:submenu.accordion#atendimento": {
+    "children": ["vtex.menu@2.x:menu#footer-atendimento-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-atendimento-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contatofooter"
+    ]
+  }
+
+
+
+
+
+
+
+}

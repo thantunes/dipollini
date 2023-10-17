@@ -1,0 +1,102 @@
+{
+    "store.custom#duvidas":{
+      "blocks":[
+        "flex-layout.row#duvidasContent"
+      ]
+    },
+    "flex-layout.row#duvidasContent":{
+      "props":{
+        "blockClass":"garantiaContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#duvidasLinks-container",
+        "rich-text#duvidasContent"
+      ]
+    },
+    "flex-layout.col#duvidasLinks-container":{
+      "props":{
+        "blockClass":"promocaoLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#duvidasLinks"
+      ]
+    },
+    "flex-layout.col#duvidasLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#regulamentos",    
+        "rich-text#politicadeprivacidade",
+        "rich-text#troca",
+        "rich-text#trabalheconosco"
+      ]
+    },
+
+    "rich-text#regulamentos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/regulamentos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#troca":{
+      "props":{
+        "text":"[Quem Somos](/institucional/troca)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+
+   
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#duvidasContent":{
+      "props":{
+        "text":"# Dúvidas Frequentes \n\n ## COMO FAÇO MEU CADASTRO? \n Para se cadastrar clique em LOGIN, localizado no menu superior, do lado direito da tela. Você será direcionado para a tela de cadastro, onde deverá clicar na melhor opção de cadastro, seja por Facebook, E-mail ou outras alternativas disponíveis. Logo após, preencha o formulário com seus dados. \n\n ## MINHAS INFORMAÇÕES PESSOAIS SERÃO MANTIDAS EM SIGILO? \n A Di Pollini segue padrões rígidos de segurança e confidencialidade a fim de proteger as informações dos usuários. Durante toda a sua navegação, você estará em um ambiente virtual seguro. Com relação à segurança no tráfego de dados, toda transação que envolver pagamentos, seja por cartão de crédito, boleto ou depósito bancário, estará criptografada com a tecnologia SSL (Secure Socket Layer). Isso significa que só a loja tem acesso a estes dados, e ainda de forma parcial. Quando você preenche os dados e nos envia, eles são protegidos por diversos caracteres criptografados, o que faz com que durante o trajeto pela Internet fiquem irreconhecíveis, assegurando a confidencialidade. Os números de cartões de crédito fornecidos são registrados diretamente no banco de dados das administradoras de cartão, no caso a Redecard, não permitindo o acesso a essas informações por parte da Di Pollini. Ao informar seus dados para a administradora, essa realiza a verificação da transação online e retorna apenas se a compra foi liberada ou não. Somos munidos com o Certificado de Segurança Digicert, um dos certificados digitais mais modernos e seguros da atualidade. A loja online foi desenvolvida para você realizar suas compras da maneira mais fácil e 100% segura. \n\n ## ESQUECI MINHA SENHA, COMO FAÇO? \n Acesse MINHA CONTA e em seguida clique em Esqueci minha senha que o sistema enviará um código para seu e-mail. Ao receber esse código por e-mail, copie o código e cole na página onde solicitou esqueci minha senha que terá um espaço em branco para digitação, assim que inserido  será confirmado seu cadastro e solicitado que crie uma nova senha.  \n ##COMO EXCLUIR MEU CADASTRO? \n Para solicitação de exclusão de cadastro, é necessário entrar em contato com a nossa central de relacionamento disponível no site através do FALE CONOSCO, de segunda à quinta-feira das 8h às 18h e de sexta-feira das 8h às 17h (exceto aos finais de semana e feriados). \n\n ##COMO SEI SE MEU PEDIDO FOI APROVADO? \n Após a aprovação da operadora de cartão de crédito ou compensação do boleto bancário/depósito bancário, você receberá um e-mail da Di Pollini, confirmando o status de seu pedido aprovado. Caso não o receba, acompanhe sua compra clicando em LOGIN / MEUS PEDIDOS na parte superior direita do site, ou então entre em contato com nosso SAC. \n\n ## QUAL O VALOR DO FRETE? \n O valor do frete será contabilizado de acordo com o peso do produto e o CEP de seu endereço de destino. Para ter informação sobre o valor do frete a pagar, escolha um produto, depois a cor e o tamanho e clique em Comprar. Logo em seguida, em sua carrinho de compras, digite seu CEP e clique em Calcular Frete. \n\n ## COMO ACOMPANHAR O STATUS DO MEU PEDIDO? \n Após o fechamento do pedido, você receberá um e-mail. Para acompanhar o status do(s) pedido(s), acesse o site e clique na opção: LOGIN, digitando em seguida seu Login e senha de acesso.\n\n ## COMO ACOMPANHAR O RASTREAMENTO OU ENTREGA DO MEU PEDIDO? \n Após o faturamento do pedido, você receberá um e-mail de confirmação, sendo possível acompanhar o histórico da sua compra passo a passo por e-mail, desde a aprovação do pagamento pela Di Pollini, até a entrega da transportadora. \n\n ## O QUE VERIFICAR NO ATO DA ENTREGA DO PEDIDO? \n Ao receber seu pedido da Di Pollini, por favor, verifique se não há violação da embalagem, caixa danificada ou ausência da DANFE (Documento Auxiliar de Nota Fiscal Eletrônica). Caso ocorra um dos casos acima, recuse a entrega e avisa nossa Central de Atendimento através do FALE CONOSCO no sac@dipollini.com.br em até 48h. \n\n ## COMO ENTRAR EM CONTATO COM A DI POLLINI? \n Através da nossa central de atendimento no FALE CONOSCO por e-mail sac@dipollini.com.br, localizado à direita do rodapé. O atendimento estará disponível de segunda à quinta-feira das 08h às 18h e na sexta-feira das 8h às 17h (exceto aos finais de semana e feriados). \n\n ## POSSO TROCAR UM PRODUTO ADQUIRIDO NO SITE WWW.DIPOLLINI.COM.BR EM UMA LOJA DI POLLINI? \n Sim, nós da Di Pollini prezamos pelo conforto de nossos clientes em todas as ocasiões, por isso desenvolvemos a loja virtual Di Pollini para proporcionar uma excelente experiência de compra, sem sair do conforto de sua casa ou escritório. No caso de trocas para produtos adquiridos em nossa loja virtual, é possível realizá-la em até 30 dias corridos em uma loja Di Pollini mais próxima de sua escolha, bastando seguir atentamente as regras a seguir:\n -Manter todos os objetos que foram entregues dentro da caixa;\n -Ter em mãos a nota fiscal do produto;\n -Não apresentar vestígios de uso ou marcações no couro;\n -Não apresentar odores; \n\n ## COMO SABER A DISPONIBILIDADE DE PRODUTO PARA COMPRAS ATRAVÉS DO SITE? \n Ao consultar um produto no site você poderá verificar se um produto está disponível bem como suas variáveis de cor, tamanho, etc. Caso um item não esteja disponível para compra ao selecionar o item, aparecerá a informação de Produto Indisponível. Caso queira saber sobre a disponibilidade do mesmo, selecione a opção “avise-me quando chegar”, desta forma você será um dos primeiros clientes a ter conhecimento da nova reposição de estoque. \n\n ## QUAIS OS ENDEREÇOS DAS LOJAS DI POLLINI? \n Para conhecer todas as nossas lojas, basta acessar o link: http://www.dipollini.com.br/institucional/lojas \n\n ## COMO RECEBER OU CANCELAR A NEWSLETTER DA DI POLLINI? \n Para cadastrar, basta efetuar o cadastro no site em NEWSLETTER, inserindo seu nome e e-mail. Caso não queira mais receber nossos e-mails, clique na opção: “remova aqui”, contida no próprio e-mail enviado, logo no rodapé. Em caso de dúvidas, por favor, contate a nossa central através do FALE CONOSCO de segunda à quinta, das 08h às 18h e na sexta-feira das 8h às 17h (exceto finais de semanas e feriados). \n\n ## INFORMAÇÕES IMPORTANTES \n **COMPRA SEGURA** \n A compra na Loja Virtual Di Pollini é 100% segura! Para garantir uma operação como essa, os dados de sua compra são criptografados. A criptografia é um sistema de codificação de informações criado para garantir que ninguém, em nenhuma hipótese, tenha acesso aos seus dados. Nenhuma informação trafega pela rede sem ser criptografada, utilizando os melhores sistemas disponíveis no mercado. A proteção é absoluta. A segurança da nossa loja é certificada pela Digicert, a maior autoridade em segurança na Internet.",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

@@ -1,0 +1,108 @@
+{
+    "store.custom#promocao":{
+      "blocks":[
+        "flex-layout.row#promocaoContent"
+      ]
+    },
+    "flex-layout.row#promocaoContent":{
+      "props":{
+        "blockClass":"promocaoContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#promocaoLinks-container",
+        "rich-text#promocaoContent"
+      ]
+    },
+    "flex-layout.col#promocaoLinks-container":{
+      "props":{
+        "blockClass":"promocaoLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#promocaoLinks"
+      ]
+    },
+    "flex-layout.col#promocaoLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#regulamentos",    
+        "rich-text#politicadeprivacidade",
+        "rich-text#troca",
+        "rich-text#prazodeentrega",
+        "rich-text#trabalheconosco"
+      ]
+    },
+
+    "rich-text#regulamentos":{
+      "props":{
+        "text":"[Regulamentos](/institucional/regulamentos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#troca":{
+      "props":{
+        "text":"[Troca e Devolução](/institucional/troca)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#prazodeentrega":{
+      "props":{
+        "text":"[Prazo de entrega](/institucional/entrega)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+   
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocaoContent":{
+      "props":{
+        "text":"# PROMOÇÕES DI POLLINI \n\n Para esse mês junho aproveite o frete grátis para entrega São Paulo, toda capital e presentei quem você ama! \n\n Além disso, aproveite o mês exclusivo para realizar suas compras e economizar no frete! \n\n Promoção válida até 30 de junho de 2022. \n\n Promoções pontuais de frete não são cumulativas com outras promoções vigentes do site.",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

@@ -1,0 +1,313 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-newsletter-desktop",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+
+  
+  "flex-layout.row#footer-newsletter-desktop": {
+    "children": [
+      "rich-text#newsletter",
+      "newsletter"
+
+    ],
+    "props": { "blockClass": "bloco-geral-news"}
+  
+  }
+    ,
+
+    "rich-text#newsletter": {
+      "props": {
+        "text":"*Cadastre-se na nossa newsletter* \n Fique por dentro das novidades e lançamentos",
+        "blockClass": "texto-news"
+      }
+    },
+
+
+
+    "flex-layout.row#footer-newsletter-mobile": {
+      "children": [
+        "rich-text#newsletter-mobile",
+        "newsletter"
+  
+      ],
+      "props": { "blockClass": "bloco-geral-news-mobile"}
+    
+    }
+      ,
+  
+      "rich-text#newsletter-mobile": {
+        "props": {
+          "text":"*Cadastre-se na nossa newsletter* \n Fique por dentro das novidades e lançamentos",
+          "blockClass": "texto-news-mobile"
+        }
+      },
+  
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      
+      "flex-layout.col#footer-0-desktop",
+
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+     
+      "flex-layout.col#formas-de-pagamento-e-seguranca"
+   
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/dipollinicalcados/?"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/dipollini/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.instagram.com/dipollinidonna/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.col#footer-0-desktop": {
+    "children": [
+      "image#logofooter",
+      "social-networks",
+      "rich-text#contatofooter"
+
+    ],
+    "props": {
+      "blockClass": "contatofooterarea"
+    }
+  },
+
+  "rich-text#contatofooter": {
+    "props": {
+      "text":"sac@dipollini.com.br \n Whatsapp: (11) 97558-2456 \n Seg. A Sex. 9:00 ÀS 17:00",
+      "blockClass": "contatofooter"
+    }
+  },
+
+    "image#logofooter": {
+      "props": {
+        "src": "https://dipollini.vtexassets.com/arquivos/logotipo-dipollini-io.png"
+       
+      }
+    },
+
+
+    "flex-layout.col#formas-de-pagamento-e-seguranca":{
+      "children": [
+        "flex-layout.row#formas-de-pagamento-e-seguranca-1",
+        "flex-layout.row#formas-de-pagamento-e-seguranca-2"
+      ],
+      "props": {
+        "blockClass": "titulo-formas-de-pagamento-area"
+      }
+
+
+    },
+
+
+    "flex-layout.row#formas-de-pagamento-e-seguranca-1":{
+      "children": [
+        "rich-text#formas-de-pagamento",
+        "image#formas-de-pagemento"
+
+      ],
+      "props": {
+        "blockClass": "formas-de-pagamento"
+      }
+    },
+
+    "flex-layout.row#formas-de-pagamento-e-seguranca-2":{
+      "children": [
+        "rich-text#certificacao",
+        "image#certificacao"
+
+      ],
+      "props": {
+        "blockClass": "formas-de-seguranca"
+      }
+    },
+    "rich-text#formas-de-pagamento": {
+      "props": {
+        "text":"Formas de Pagamento",
+        "blockClass": "titulo-formas-de-pagamento"
+      }
+    },
+
+
+    "image#formas-de-pagemento": {
+      "props": {
+        "src": "https://dipollini.vtexassets.com/arquivos/icons-payments-1.png"
+       
+      }
+    },
+
+    "rich-text#certificacao": {
+      "props": {
+        "text":"Certificação",
+        "blockClass": "titulo-certificacao"
+      }
+    },
+   
+    "image#certificacao": {
+      "props": {
+        "src": "/arquivos/loja-confiavel-logotipo.png"
+       
+      }
+    },
+
+
+
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer","flex-layout.row#feitocomorgulho"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+
+  "flex-layout.row#feitocomorgulho": {
+    "children": [
+      "rich-text#feitocomorgulho",
+      "image#logoevision",
+      "image#logovtex"
+   
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+"rich-text#feitocomorgulho": {
+  "props": {
+    "text": "Feito com orgulho",
+    "blockClass": "text-feito-com-orgulho"
+  }
+},
+
+"image#logovtex": {
+  "props": {
+    "src": "/arquivos/LOGOVTEX-16BT-SAVENORMAL.png",
+    "blockClass": "vtex-feito-com-orgulho"
+  }
+},
+
+"image#logoevision": {
+  "props": {
+    "src": "/arquivos/novo-logo-2023-evision-positivo.png",
+    "blockClass": "evision-feito-com-orgulho"
+  }
+},
+
+
+  "rich-text#footer": {
+    "props": {
+      "text": "Todos os direitos reservados ® - Di Pollini | Política de Privacidade Calçados Di Pollini Ltda. – CNPJ: 02.476.052/0001-64 – Rua Hipodromo,1509 Mooca-São Paulo-SP",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-newsletter-mobile",
+      "flex-layout.row#1-footer-mobile",
+
+
+
+
+      
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+    
+      "rich-text#footer-mobile",
+      "flex-layout.row#feitocomorgulho"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+
+      "flex-layout.row#logo-sociais-mobile-mobile",
+      
+      "vtex.menu@2.x:menu#masculino-mobile",
+      "vtex.menu@2.x:menu#feminino-mobile",
+      "vtex.menu@2.x:menu#institucional-mobile",
+      
+      "vtex.menu@2.x:menu#atendimento-mobile",
+    
+      "flex-layout.col#formas-de-pagamento-e-seguranca"
+
+    ]
+  },
+
+  "flex-layout.row#logo-sociais-mobile-mobile":{
+    "children": [
+      "image#logofooter",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "logo-sociais-mobile"
+    }
+  },
+
+
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Todos os direitos reservados ® - Di Pollini | Política de Privacidade Calçados Di Pollini Ltda. – CNPJ: 02.476.052/0001-64 – Rua Hipodromo,1509 Mooca-São Paulo-SP",
+      "blockClass": "footer"
+    }
+  }
+}

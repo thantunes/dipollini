@@ -1,0 +1,99 @@
+{
+    "store.custom#comocomprar":{
+      "blocks":[
+        "flex-layout.row#comocomprarContent"
+      ]
+    },
+    "flex-layout.row#comocomprarContent":{
+      "props":{
+        "blockClass":"garantiaContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#comocomprarLinks-container"
+      ]
+    },
+    "flex-layout.col#comocomprarLinks-container":{
+      "props":{
+        "blockClass":"promocaoLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#comocomprarLinks"
+      ]
+    },
+    "flex-layout.col#comocomprarLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#regulamentos",    
+        "rich-text#politicadeprivacidade",
+        "rich-text#troca",
+        "rich-text#trabalheconosco"
+      ]
+    },
+   
+    "rich-text#regulamentos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/regulamentos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#troca":{
+      "props":{
+        "text":"[Quem Somos](/institucional/troca)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#comocomprarContent":{
+      "props":{
+        "text":"# Como comprar \n\n ## Tem dúvidas na hora da compra? Não se preocupe, ensinamos o passo a passo \n\n **Passo 1:** Qual o perfil de calçados desejado? Selecione sua categoria preferida \n\n      Sapato Maggiore: a linha Maggiore vem com uma palmilha especial que aumenta em até 7 centímetros a altura. Perfeita para homens que querem estar imponentes e elegantes em diversas ocasiões, por isso a linha Maggiore é dividida em: \n Maggiore Social: essa linha é composta por calçados 100% em couro, com a palmilha interna Maggiore, solado totalmente em couro, alta durabilidade para o calçado. Essa categoria é perfeita para um visual nobre e elegante em reuniões, casamentos e eventos especiais. Essa categoria costuma ter um visual clássico com cadarço.\n\n Maggiore Esporte Fino: essa linha é composta por calçados 100% em couro, com a palmilha interna Maggiore, solado em couro e solado misto (metade couro, metade borracha), solados emborrachados fazem menos barulho e costumam ser usados no dia a dia de trabalho, no happy hour e momentos de descontração, já que seu visual é elegante e direcionado a um homem moderno. Podem ser usados com calça jeans e social. \n Maggiore Casual: essa linha é composta por sapatênis 100% em couro, com palmilha interna Maggiore, solado em borracha e cadarços resistentes. Perfeita para o homem que deseja ficar mais alto também no final de semana, eventos, churrascos e momentos casuais que requerem um toque descontraído no visual. \n Sapatênis: essa linha é composta por todos os sapatênis da Di Pollini 100% em couro. Coloridos, resistentes e perfeitos para locais de trabalho que pedem um dress code mais descontraído, para um casual day, churrasco e eventos do final de semana. Combina muito fácil com calça jeans, bermuda e calças de sarja. \n Esporte Fino: essa linha é composta por todos os sapatos Esporte Fino da Di Pollini. Todos são 100% em couro, trazem texturas e cores diferentes para o homem moderno que busca estar na moda. Grande parte dos calçados vem com fivela no cabedal, são fáceis de calçar e combinam facilmente com calças sociais, calça jeans escura e clara. Perfeito para o dia a dia de trabalho. \n Sapato Social: essa linha é composta por todos os sapatos Sociais da Di Pollini. Confeccionados 100% em couro, trazem um design robusto, elegante e clássico. Grande parte dos modelos são com cadarço para um visual sóbrio, contam com biqueiras arredondadas e quadradas para todos os gostos e estilos sociais. O solado desses calçados varia do 100% em couro para os mistos que são feitos em couro com pequenas ranhuras em borracha, para maior estabilidade no caminhar. \n Sider/Docksider (mocassim): essa linha é composta por todos os mocassins e docksiders da Di Pollini. Os mocassins, chamados de siders, são práticos e basta que sejam calçados. Costumam ser 100% em couro camurça para um visual mais bonito. Já os docksiders são os mocassins com cadarço, que deixam o visual mais descontraído e moderno. Podem ser usados com bermuda e calça jeans. \n Sapato Casual: : essa linha é composta por todos os calçados confortáveis da Di Pollini. 100% em couro vem com camadas de diferentes borrachas, amortecem os impactos e são ideais para quem busca conforto em primeiro lugar. \n Sandálias e Chinelos: essa linha é composta por todas as sandálias e chinelos da Di Pollini. Confortáveis, resistentes e perfeitos para ficar em casa, ir ao clube ou passear na praia, são feitos 100% em couro. \n Acessórios/Cintos/Meias/Pastas/Mochilas/Carteiras: todos acessórios da Di Pollini são 100% em couro, trazendo diferentes opções para os homens modernos e organizados. Opções de cintos, pastas, mochilas e carteiras trazem diferentes compartimentos para guardar seus objetos pessoais. \n Botas: essa linha foi desenvolvida para homens que buscam um visual mais robusto e masculino. Podem ser usadas em diferentes estações do ano tanto com calças quanto com bermudas. \n\n **Passo 2:** Selecione o produto desejado\n\n **Passo 3:** Selecione o tamanho desejado\n\n **Passo 4:** Click sobre o botão Comprar \n\n Deseja adicionar mais produtos? Vá para o Passo 5\n\n **Passo 5:** Clique no link adicionar mais produtos \n\n Assim que estiver satisfeito com os produtos selecionados, confira a cor e numeração escolhidas dentro da área Meu Carrinho, informe seu CEP para calcular o frete total do lado direito da página em seguida clique no botão Finalizar Compra \n\n **Passo 6:** digite seu e-mail.\n\n **Passo 7:** selecione os meios de pagamentos desejados. Temos opção de pagamento em depósito bancário Itaú (5% de desconto) e cartão de crédito com as bandeiras American Express, VISA, Mastercard, Dinners.\n\n **Passo 8:** após escolher a opção de pagamento, confirme a compra e aparecerá em sua tela a confirmação do pedido, as mesmas informações irão para o seu e-mail \n\n Se ainda ficou com dúvidas, entre em contato conosco por chat online, telefone (11) 2618-2098 ou e-mail em sac@dipollini.com.br ",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

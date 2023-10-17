@@ -1,0 +1,938 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Masculino-footer",
+      "menu-item#Maggiore",
+      "menu-item#Social",
+      "menu-item#tenisCasual",
+      "menu-item#sapatoCasual",
+      "menu-item#mocassim",
+      "menu-item#bota",
+      "menu-item#sandalias",
+      "menu-item#acessorios",
+      "menu-item#outlet"
+    ]
+  },
+
+
+  "menu-item#Masculino-footer": {
+    "props": {
+      "id": "menu-item-masculino-footer",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "link-masculino-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    }
+  },
+
+
+  "menu-item#Maggiore": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+     
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Maggiore",
+        "text": "Maggiore"
+      }
+    }
+  },
+
+  "menu-item#Social": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Social",
+        "text": "Social"
+      }
+    }
+  },
+
+  "menu-item#tenisCasual": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tênis Casual",
+        "text": "Tênis Casual"
+      }
+    }
+  },
+
+  "menu-item#sapatoCasual": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sapato Casual",
+        "text": "Sapato Casual"
+      }
+    }
+  },
+
+  "menu-item#mocassim": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mocassim",
+        "text": "Mocassim"
+      }
+    }
+  },
+  "menu-item#bota": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bota",
+        "text": "Bota"
+      }
+    }
+  },
+
+
+  "menu-item#sandalias": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sandalias",
+        "text": "Sandalias"
+      }
+    }
+  },
+
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+  
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+
+
+
+
+
+
+  "menu-item#news": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "News",
+        "text": "News"
+      }
+    }
+  },
+  "menu-item#blackfriday": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "BlackFriday",
+        "text": "Black Friday"
+      }
+    }
+  },
+  "menu-item#sale": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    }
+  },
+  "menu-item#personalization": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "Personalization"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quem-institucional-footer",
+      "menu-item#quem-somos",
+      "menu-item#nossas-lojas",
+      "menu-item#regulamentos",
+      "menu-item#politica",
+      "menu-item#prazo-de-entrega",
+      "menu-item#troca-e-devolucao"
+
+    ]
+  },
+
+
+  "menu-item#quem-institucional-footer": {
+    "props": {
+      "id": "menu-item-institucional-footer",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "link-institucional-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    }
+  },
+
+
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somo",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "link-quem-somos-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/quem-somos",
+        "noFollow": true,
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
+      }
+    }
+  },
+
+
+  "menu-item#nossas-lojas": {
+    "props": {
+      "id": "menu-item-nossas-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/nossas-lojas",
+        "noFollow": true,
+        "tagTitle": "Nossas Lojas",
+        "text": "Nossas Lojas"
+      }
+    }
+  },
+
+
+  "menu-item#promocao": {
+    "props": {
+      "id": "menu-item-promocao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/promocao",
+        "noFollow": true,
+        "tagTitle": "Promoção",
+        "text": "Promoção"
+      }
+    }
+  },
+
+
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-garantia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/garantia",
+        "noFollow": true,
+        "tagTitle": "Garantia Di Pollini",
+        "text": "Garantia Di Pollini"
+      }
+    }
+  },
+
+
+  "menu-item#politica": {
+    "props": {
+      "id": "menu-item-politica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/politica-de-privacidade",
+        "noFollow": true,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#regulamentos": {
+    "props": {
+      "id": "menu-item-regulamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/regulamentos",
+        "noFollow": true,
+        "tagTitle": "Regulamentos",
+        "text": "Regulamentos"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#smartphones": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/smartphones",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+
+  "menu-item#videogames": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/videogames",
+        "noFollow": true,
+        "tagTitle": "Videogames",
+        "text": "Videogames"
+      }
+    }
+  },
+
+  "menu-item#tvs": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "TVs",
+        "text": "TVs"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#dividas-ajuda-e-suporte-footer",
+    
+      "menu-item#prazo-de-entrega",
+      "menu-item#troca-e-devolucao"
+   
+
+    ]
+  },
+
+
+  "menu-item#dividas-ajuda-e-suporte-footer": {
+    "props": {
+      "id": "menu-item-ajuda-e-suporte-footer",
+      "type": "custom",
+      "blockClass": "ajuda-e-suporte-footer",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ajuda e Suporte",
+        "text": "Ajuda e Suporte"
+      }
+    }
+  },
+
+
+  "menu-item#dividas-frequentes": {
+    "props": {
+      "id": "menu-item-dividas-frequentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/duvidas-frequentes",
+        "noFollow": true,
+        "tagTitle": "Dúvidas Frequentes",
+        "text": "Dúvidas Frequentes"
+      }
+    }
+  },
+
+
+  "menu-item#prazo-de-entrega": {
+    "props": {
+      "id": "menu-item-prazo-de-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/entrega",
+        "noFollow": true,
+        "tagTitle": "Prazo de Entrega",
+        "text": "Prazo de Entrega"
+      }
+    }
+  },
+
+
+  "menu-item#troca-e-devolucao": {
+    "props": {
+      "id": "menu-item-troca-e-devolucao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/troca",
+        "noFollow": true,
+        "tagTitle": "Troca e Devolução",
+        "text": "Troca e Devolução"
+      }
+    }
+  },
+
+
+  "menu-item#como-comprar": {
+    "props": {
+      "id": "menu-item-como-comprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/como-comprar",
+        "noFollow": true,
+        "tagTitle": "Como Comprar",
+        "text": "Como Comprar"
+      }
+    }
+  },
+
+
+
+
+
+
+  "menu-item#bags": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Bags"
+      }
+    }
+  },
+
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Backpacks",
+        "text": "Backpacks"
+      }
+    }
+  },
+
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sapatofeminino-footer",
+      "menu-item#sapatofeminino",
+      "menu-item#tenisfeminino",
+      "menu-item#sandaliasfeminino",
+      "menu-item#sapatilhasfeminino",
+      "menu-item#rasteirasfeminino",
+      "menu-item#botasfeminino",
+      "menu-item#bolsasfeminino"
+
+    ]
+  },
+
+  "menu-item#sapatofeminino-footer": {
+    "props": {
+      "id": "menu-item-category-sapatofeminino-footer",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "link-feminino-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Feminino",
+        "text": "Feminino"
+      }
+    }
+  },
+
+
+  "menu-item#sapatofeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sapatos",
+        "text": "Sapatos"
+      }
+    }
+  },
+
+  "menu-item#tenisfeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Tênis",
+        "text": "Tênis"
+      }
+    }
+  },
+
+  "menu-item#sandaliasfeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sandálias",
+        "text": "Sandálias"
+      }
+    }
+  },
+
+
+  "menu-item#sapatilhasfeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sapatinhas",
+        "text": "Sapatinhas"
+      }
+    }
+  },
+
+  
+  "menu-item#rasteirasfeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Rasteiras",
+        "text": "Rasteiras"
+      }
+    }
+  },
+
+
+  "menu-item#botasfeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      }
+    }
+  },
+
+
+  "menu-item#bolsasfeminino": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsas",
+        "noFollow": true,
+        "tagTitle": "Bolsas",
+        "text": "Bolsas"
+      }
+    }
+  },
+
+
+
+
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  }
+}

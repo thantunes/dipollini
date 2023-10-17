@@ -1,0 +1,887 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+       "rich-text#home-cupom-de-desconto",
+
+       "flex-layout.row#barra-fixa-mobile",
+
+
+       "slider-layout#carrousel-departamentos-home",
+      //"flex-layout.row#deals",
+      "__fold__",
+      "rich-text#home-compre-por-estilo",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title-esportivo",
+      "flex-layout.row#shelf-esportivo",
+      "rich-text#shelf-title-classico",
+      "flex-layout.row#shelf-classico",
+    //  "info-card#home",
+     // "flex-layout.row#home-ela-voltou",
+     // "flex-layout.row#home-ela-voltou-mobile",
+
+      "list-context.image-list#feminino",
+
+
+      "slider-layout#carrousel-departamentos-feminino-home",
+      "rich-text#home-compre-por-estilo-feminino",
+
+      "rich-text#shelf-title-executiva",
+      "flex-layout.row#shelf-executiva",
+      "rich-text#shelf-title-casual",
+      "flex-layout.row#shelf-casual",
+      "rich-text#shelf-title-esportiva",
+      "flex-layout.row#shelf-esportiva",
+      "flex-layout.row#home-sobre-a-dipollini"
+
+   //   "rich-text#question",
+    //  "rich-text#link",
+  
+    ]
+  },
+
+
+  "flex-layout.row#barra-fixa-mobile":{
+    "children": [
+      "flex-layout.col#barra-fixa-mobile-troca-gratis",
+      "flex-layout.col#barra-fixa-mobile-pg-vista",
+      "flex-layout.col#barra-fixa-mobile-pg-troca",
+      "flex-layout.col#barra-fixa-mobile-pg-6x",
+      "flex-layout.col#barra-fixa-mobile-desconto"
+    ],
+    "props": {
+      "blockClass": "bloco-barra-fixa-mobile"
+    }
+
+  },
+  "flex-layout.col#barra-fixa-mobile-troca-gratis":{
+    "children": [
+      "rich-text#barra-fixa-mobile-troca-gratis"
+    ],
+    "props": {
+      "blockClass": "bloco-barra-fixa-mobile-troca-gratis"
+    }
+  },
+"rich-text#barra-fixa-mobile-troca-gratis": {
+  "props": {
+    "text": "Primeira \n **Troca Grátis**",
+    "blockClass": "barra-fixa-mobile-troca-gratis"
+  }
+},
+
+
+
+"flex-layout.col#barra-fixa-mobile-pg-vista":{
+  "children": [
+    "rich-text#barra-fixa-mobile-pg-vista"
+  ],
+  "props": {
+    "blockClass": "bloco-barra-fixa-mobile-pg-vista"
+  }
+},
+"rich-text#barra-fixa-mobile-pg-vista": {
+"props": {
+  "text": " **Ganhe 5%** \n pag a vista",
+  "blockClass": "barra-fixa-mobile-pg-vista"
+}
+},
+
+
+"flex-layout.col#barra-fixa-mobile-pg-troca":{
+  "children": [
+    "rich-text#barra-fixa-mobile-pg-troca"
+  ],
+  "props": {
+    "blockClass": "bloco-barra-fixa-mobile-pg-troca"
+  }
+},
+"rich-text#barra-fixa-mobile-pg-troca": {
+"props": {
+  "text": "Troque em \n  **Loja Física**",
+  "blockClass": "barra-fixa-mobile-pg-troca"
+}
+},
+
+
+
+
+
+
+"flex-layout.col#barra-fixa-mobile-pg-6x":{
+  "children": [
+    "rich-text#barra-fixa-mobile-pg-6x"
+  ],
+  "props": {
+    "blockClass": "bloco-barra-fixa-mobile-pg-6x"
+  }
+},
+"rich-text#barra-fixa-mobile-pg-6x": {
+"props": {
+  "text": "Pague em até \n  **6 x sem juros no cartão**",
+  "blockClass": "barra-fixa-mobile-pg-6x"
+}
+},
+
+
+
+
+
+
+"flex-layout.col#barra-fixa-mobile-desconto":{
+  "children": [
+    "rich-text#barra-fixa-mobile-desconto"
+  ],
+  "props": {
+    "blockClass": "bloco-barra-fixa-mobile-desconto"
+  }
+},
+"rich-text#barra-fixa-mobile-desconto": {
+"props": {
+  "text": " **Ganhe 5%** \n na Primeira Compra",
+  "blockClass": "barra-fixa-mobile-desconto"
+}
+},
+
+
+
+
+
+
+
+
+
+
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/Banners_Site_Novo_Primavera_Verao_Desk_1920x629_02_V02.png",
+          "mobileImage": "/arquivos/20231017_DIP_45_Banners_Site_Novo_Mobile_Principal_DiPo_430x240_V02.png"
+        },
+        {
+          "image": "/arquivos/Banners_Site_Novo_Primavera_Verao_Desk_1920x629_02_V02.png",
+          "mobileImage": "/arquivos/20231017_DIP_45_Banners_Site_Novo_Mobile_Principal_DiPo_430x240_V02.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "slider-layout#carrousel-departamentos-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 9,
+        "tablet": 6,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+
+"centerMode": {
+  "desktop":"disabled",
+  "tablet": "to-the-left",
+ "phone": "to-the-left"
+},
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-slider-departamentos",
+      "showPaginationDots":"never"
+    },
+    "children": [
+      "image#carrousel-maggiore", 
+      "image#carrousel-social",
+      "image#carrousel-sapatenis",
+      "image#carrousel-casual",
+      "image#carrousel-mocassim",
+      "image#carrousel-botas",
+      "image#carrousel-sandalias",
+      "image#carrousel-acessorios",
+      "image#carrousel-outlet"
+      ]
+  },
+
+
+
+  "image#carrousel-maggiore": {
+    "props": {
+      "src": "/arquivos/slider-home-io-maggiore.png",
+      "link":{
+        "url":"/maggiore"
+      }
+    }
+    
+  },
+
+  "image#carrousel-social": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Social.png",
+      "link":{
+        "url":"/social"
+      }
+    }
+  },
+
+  "image#carrousel-sapatenis": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Sapatenis.png",
+      "link":{
+        "url":"/tenis-casual"
+      }
+    }
+  },
+  "image#carrousel-casual": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Casual.png",
+      "link":{
+        "url":"/casual"
+      }
+    }
+  },
+  "image#carrousel-mocassim": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Mocassim.png",
+      "link":{
+        "url":"/mocassim"
+      }
+    }
+  },
+  "image#carrousel-botas": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Botas.png",
+      "link":{
+        "url":"/botas"
+      }
+    }
+  },
+  "image#carrousel-sandalias": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Sandalias.png",
+      "link":{
+        "url":"/sandalias"
+      }
+    }
+  },
+  "image#carrousel-acessorios": {
+    "props": {
+      "src": "/arquivos/slider-home-io-Acessorios.png",
+      "link":{
+        "url":"/acessorios"
+      }
+    }
+  },
+  "image#carrousel-outlet": {
+    "props": {
+      "src": "/arquivos/slider-home-io-outlet.png",
+      "link":{
+        "url":"/outlet"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  "slider-layout#carrousel-departamentos-feminino-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 9,
+        "tablet": 6,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+
+"centerMode": {
+  "desktop":"disabled",
+  "tablet": "to-the-left",
+ "phone": "to-the-left"
+},
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-slider-departamentos-feminino",
+      "showPaginationDots":"never"
+    },
+    "children": [
+      "image#carrousel-sapato-feminino", 
+      "image#carrousel-tenis-feminino",
+      "image#carrousel-sandalias-feminino",
+      "image#carrousel-sapatilhas-feminino",
+      "image#carrousel-rasteiras-feminino",
+      "image#carrousel-botas-feminino",
+      "image#carrousel-bolsas-feminino"
+      ]
+  },
+
+
+
+  "image#carrousel-sapato-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-sapatos-femininos-v2.png",
+      "link":{
+        "url":"/sapatos---feminino"
+      }
+    }
+    
+  },
+
+
+  "image#carrousel-tenis-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-tenis-feminino-v2.png",
+      "link":{
+        "url":"/tenis---feminino"
+      }
+    }
+    
+  },
+  
+  "image#carrousel-sandalias-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-sandalias-v2.png",
+      "link":{
+        "url":"/sandalias---feminino"
+      }
+    }
+    
+  },
+
+
+
+   
+  "image#carrousel-sapatilhas-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-sapatilhas-v2.png",
+      "link":{
+        "url":"/sapatilhas---feminino"
+      }
+    }
+    
+  },
+
+
+
+  "image#carrousel-rasteiras-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-rasteiras-femininas-v2.png",
+      "link":{
+        "url":"/rasteiras---feminino"
+      }
+    }
+    
+  },
+
+
+
+
+  "image#carrousel-botas-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-botas-femininas-v2.png",
+      "link":{
+        "url":"/botas---feminino"
+      }
+    }
+    
+  },
+
+
+
+
+
+
+  "image#carrousel-bolsas-feminino": {
+    "props": {
+      "src": "/arquivos/slider-home-io-bolsas-v2.png",
+      "link":{
+        "url":"/bolsas"
+      }
+    }
+    
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Moderno",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "skusFilter": "ALL_AVAILABLE",
+      "collection": "211"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+  "rich-text#home-cupom-de-desconto": {
+    "props": {
+      "text": "**GANHE 5%OFF** NA PRIMEIRA COMPRA COM O CUPOM - *USE5DIPO*",
+      "blockClass": "cupom-de-desconto-home"
+    }
+  },
+
+
+
+  "rich-text#home-compre-por-estilo": {
+    "props": {
+      "text": "Compre por Estilo",
+      "blockClass": "texto-compre-por-estilo"
+    }
+  },
+
+
+  "rich-text#home-compre-por-estilo-feminino": {
+    "props": {
+      "text": "Compre por Estilo",
+      "blockClass": "texto-compre-por-estilo-feminino"
+    }
+  },
+
+
+  "rich-text#shelf-title-esportivo": {
+    "props": {
+      "text": "## Esportivo",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-esportivo": {
+    "children": ["list-context.product-list#esportivo"]
+  },
+  "list-context.product-list#esportivo": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-esportivo"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products-esportivo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+  "rich-text#shelf-title-classico": {
+    "props": {
+      "text": "## Clássico",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-classico": {
+    "children": ["list-context.product-list#classico"]
+  },
+  "list-context.product-list#classico": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-classico"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products-classico": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "list-context.image-list#feminino": {
+    "children": ["slider-layout#feminino-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/Banners_Site_Novo_Primavera_Verao_Desk_1920x629_03_V02.png",
+          "mobileImage": "/arquivos/20231017_DIP_45_Banners_Site_Novo_Mobile_Ela_Voltou_430x313_V01.png"
+        },
+        {
+          "image": "/arquivos/Banners_Site_Novo_Primavera_Verao_Desk_1920x629_03_V02.png",
+          "mobileImage": "/arquivos/20231017_DIP_45_Banners_Site_Novo_Mobile_Ela_Voltou_430x313_V01.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#feminino-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+
+
+
+
+
+
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/banner-dipollini-donna-2023.png",
+      "headline": "Ela voltou \n DIPOLLINI DONNA 2023",
+      "callToActionText": "CONFIRA",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-home",
+      "textAlignment": "left"
+     
+    }
+    
+  },
+
+
+
+
+
+  "rich-text#shelf-title-executiva": {
+    "props": {
+      "text": "## Executiva",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-executiva": {
+    "children": ["list-context.product-list#executiva"]
+  },
+  "list-context.product-list#executiva": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-executiva"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "212"
+    }
+  },
+  "slider-layout#demo-products-executiva": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+  "rich-text#shelf-title-casual": {
+    "props": {
+      "text": "## Casual",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-casual": {
+    "children": ["list-context.product-list#casual"]
+  },
+  "list-context.product-list#casual": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-casual"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "212"
+    }
+  },
+  "slider-layout#demo-products-casual": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+  "rich-text#shelf-title-esportiva": {
+    "props": {
+      "text": "## Esportiva",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-esportiva": {
+    "children": ["list-context.product-list#esportiva"]
+  },
+  "list-context.product-list#esportiva": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-esportiva"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "212"
+    }
+  },
+  "slider-layout#demo-products-esportiva": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+
+
+
+  "flex-layout.row#home-sobre-a-dipollini": {
+    "children": ["image#home-sobre-a-dipollini", "flex-layout.col#text-home-sobre-a-dipollini"],
+    
+    "props": {
+     
+      "blockClass": "bloco-sobre-a-dipollini"
+    }
+
+
+
+
+  },
+  "flex-layout.col#text-home-sobre-a-dipollini": {
+    "children": ["rich-text#title-home-sobre-a-dipollini", "rich-text#home-sobre-a-dipollini"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-home-sobre-a-dipollini": {
+    "props": {
+      "text": "## DI POLLINI",
+      "blockClass": "title-sobre-a-dipollini"
+    }
+  },
+  "image#home-sobre-a-dipollini": {
+    "props": {
+      "src": "/arquivos/Banners_Site_Novo_Primavera_Verao_Desk_728x550_V02.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "rich-text#home-sobre-a-dipollini": {
+    "props": {
+      "text": "A história da Di Pollini começou na Itália com a família Belusci produzindo calçados artesanalmente com qualidade e excelência.Em 1974, iniciou sua fabricação no tradicional bairro da Mooca, reduto da imigração italiana em São Paulo, produzindo calçados com extremo conforto para todos os gostos e estilos. Contando com a parceria de vários estilistas italianos, tornou-se referência na linha social, mocassim , sapatênis e casual.Investindo em pesquisas, desenvolveu a linha Maggiore, uma construção que aumenta em até 7 cm a altura de forma discreta, devido a sua inovadora palmilha com elevação. Além disso, oferece um mix de acessórios como cintos, pastas, mochilas e pulseiras.",
+      "blockClass": "about"
+    }
+  }
+,
+
+
+
+
+
+
+
+
+"flex-layout.row#home-ela-voltou": {
+  "children": ["image#home-home-ela-voltou", "flex-layout.col#text-home-home-ela-voltou"],
+  
+  "props": {
+   
+    "blockClass": "bloco-home-ela-voltou"
+  }
+
+
+
+
+},
+"flex-layout.col#text-home-home-ela-voltou": {
+  "children": ["rich-text#home-home-ela-voltou"],
+  "props": {
+    "blockclass": "textColumn",
+    "preventVerticalStretch": true
+  }
+},
+
+"image#home-home-ela-voltou": {
+  "props": {
+    "src": "/arquivos/banner-dipollini-donna-2023.png",
+    "maxHeight": "",
+    "maxWidth": "",
+    "blockClass": "storePrint"
+  }
+},
+"rich-text#home-home-ela-voltou": {
+  "props": {
+    "text": "Ela voltou \n DIPOLLINI DONNA 2023  \n [Confira](/feminino)",
+    "blockClass": "texto-ela-voltou"
+  }
+}
+,
+
+
+
+"flex-layout.row#home-ela-voltou-mobile": {
+  "children": ["image#home-home-ela-voltou-mobile"],
+  
+  "props": {
+   
+    "blockClass": "bloco-home-ela-voltou-mobile"
+  }
+
+},
+"image#home-home-ela-voltou-mobile": {
+  "props": {
+    "src": "/arquivos/dipollini-donna-banner-mobile-io.png",
+    "maxHeight": "",
+    "maxWidth": "",
+    "blockClass": "bloco-home-ela-voltou-mobile-image"
+  }
+},
+
+
+
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

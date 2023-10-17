@@ -1,0 +1,108 @@
+{
+    "store.custom#entrega":{
+      "blocks":[
+        "flex-layout.row#entregaContent"
+      ]
+    },
+    "flex-layout.row#entregaContent":{
+      "props":{
+        "blockClass":"garantiaContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#entregaLinks-container",
+        "rich-text#entregaContent"
+      ]
+    },
+    "flex-layout.col#entregaLinks-container":{
+      "props":{
+        "blockClass":"promocaoLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#entregaLinks"
+      ]
+    },
+    "flex-layout.col#entregaLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#regulamentos",    
+        "rich-text#politicadeprivacidade",
+        "rich-text#troca",
+        "rich-text#prazodeentrega",
+        "rich-text#trabalheconosco"
+      ]
+    },
+   
+
+    "rich-text#regulamentos":{
+      "props":{
+        "text":"[Regulamentos](/institucional/regulamentos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#troca":{
+      "props":{
+        "text":"[Troca e Devolução](/institucional/troca)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#prazodeentrega":{
+      "props":{
+        "text":"[Prazo de entrega](/institucional/entrega)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#entregaContent":{
+      "props":{
+        "text":"# ENTREGA DI POLLINI \n Realizamos nossas entregas pelos Correios via SEDEX, PAC. Entregamos em todo o território nacional todos os produtos disponíveis à venda no site.\n O recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que assinem o comprovante de recebimento da mercadoria.\n Para as entregas feitas pelos Correios são realizadas três tentativas de entrega do produto em dias úteis consecutivos. Após três tentativas de entrega sem sucesso, o produto será devolvido ao nosso Centro de Distribuição em São Paulo. Para um novo envio será necessário entrar em contato com nossa central de atendimento, solicitando nova postagem mediante pagamento da mesma. \n **Atenção:** o prazo para entrega dos produtos é contabilizado de acordo com o local, a forma de pagamento escolhida e a disponibilidade do produto adquirido de imediato, sendo contabilizado no dia seguinte ao que foi postado. \n Para calcular o prazo estimado de entrega do produto, basta clicar em “calcular o valor do frete”, no carrinho de compras. Agora, basta inserir o CEP no campo localizado na lateral esquerda, e clicar em “OK”. Será exibido o nome do serviço disponivel para sua localidade, o prazo de entrega e o valor. \n Na compra de três ou mais produtos, poderão ser entregues separadamente, conforme o prazo de entrega de cada um. O mesmo procedimento é adotado no caso de itens de tamanhos muito diferentes que exigem a utilização de mais de uma embalagem. \n\n ## Frete Grátis\n O frete é gratuito para modalidade PAC em todo Brasil nas compras acima de R$ 1000,00 \n É adicionado automaticamente ao carrinho assim que a compra atingir essa marca. \n **Atenção:** O prazo para entrega do pedido passa a ser considerado a partir da postagem da nossa loja. \n **Observação:** existem algumas áreas de restrição de entrega dos Correios que será necessário se deslocar até a agência para retirada do produto, consulte sua área aqui antes de finalizar a compra: Área de restrição dos Correios \n\n ##As entregas são realizadas de segunda à sexta-feira em horário comercial. \n Caso haja descumprimento do prazo informando pelos Correios abriremos uma reclamação na Ouvidoria com base no Art. 14 do Codigo de Defesa do Consumidor que solicita que o fornecedor Correios cumpra com os prazos divulgados. O fornecedor de serviços Correios responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos. \n campanha de frete grátis para SP Capital valida até 30 de junho de 2022",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

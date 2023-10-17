@@ -1,0 +1,110 @@
+{
+    "store.custom#garantia":{
+      "blocks":[
+        "flex-layout.row#garantiaContent"
+      ]
+    },
+    "flex-layout.row#garantiaContent":{
+      "props":{
+        "blockClass":"garantiaContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#garantiaLinks-container",
+        "rich-text#garantiaContent"
+      ]
+    },
+    "flex-layout.col#garantiaLinks-container":{
+      "props":{
+        "blockClass":"promocaoLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#garantiaLinks"
+      ]
+    },
+    "flex-layout.col#garantiaLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#regulamentos",    
+        "rich-text#politicadeprivacidade",
+        "rich-text#troca",
+        "rich-text#prazodeentrega",
+        "rich-text#trabalheconosco"
+      ]
+    },
+
+
+    "rich-text#regulamentos":{
+      "props":{
+        "text":"[Regulamentos](/institucional/regulamentos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#troca":{
+      "props":{
+        "text":"[Troca e Devolução](/institucional/troca)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#prazodeentrega":{
+      "props":{
+        "text":"[Prazo de entrega](/institucional/entrega)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+   
+   
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantiaContent":{
+      "props":{
+        "text":"# GARANTIA DI POLLINI \n\n Comprei um produto que apresentou defeito, o que devo fazer? \n Prezamos sempre pela excelente qualidade de nossos produtos, porém, em alguns casos, podem ocorrer defeitos de fabricação.  \n A solicitação de análise do produto deve ser feita em até 90 dias em uma das lojas do mesmo estado em que foi efetuada a compra caso tenha sido adquirido em uma de nossas lojas físicas ou envio da solicitação de defeito para nossa Central de Atendimento ao Cliente para que seja emitido um código para emissão da remessa via Correios. \n É indispensável a apresentação do cupom fiscal (Nota Fiscal) do produto nas trocas em lojas físicas.\n Nossos gerentes irão preencher a ficha Ordem de Serviço e o produto será encaminhado para análise do fabricante. A troca será autorizada se for comprovado defeito de fabricação. \n **Atenção:** trabalhamos com produtos 100% em couro natural, algumas alterações na cor ou aparente defeitos no courino podem ocorrer, já que uma peça em couro nunca será igual a outra, podendo ocorrer diferenças de um calçado para outro de mesmo modelo. \n\n ## DEVOLUÇÃO DE MERCADORIA \n - A mercadoria adquirida online deverá ser devolvida no endereço: Rua Hipodromo,1509 Mooca-São Paulo-sp- CEP 03164-140, sendo previamente informado através de nosso e-mail sac@dipollini.com.br relatando o motivo do defeito, nome completo e número do pedido.\n - O produto deve ser devolvido em sua embalagem original, acompanhado de todos os acessórios e manuais.\n - O produto não poderá apresentar qualquer indício de uso no solado e parte interna. \n **ATENÇÃO:** O produto que não atender às condições exigidas acima, não será aceito como devolução, e automaticamente será remetido ao endereço de origem sem possibilidade de troca. Nessas condições, a Di Pollini se reserva no direito de fazer nova cobrança de frete.\n \n ## ANÁLISE DE DEFEITOS DO PRODUTO \n A avaliação de defeitos do produto será realizada em nossa Área de Qualidade, onde o produto será testado em diferentes circunstâncias para assim ser concluído o laudo final. \n Prazo médio de conclusão: 30 dias úteis após o recebimento do produto. \n **Laudo Favorável à Troca** \n - O cliente que comprou online receberá no endereço de origem, sem custos adicionais, a substituição do mesmo produto. \n - Na ausência do mesmo modelo em estoque, o cliente será comunicado e poderá escolher um outro modelo para troca entre as opções existentes no site, respeitando o limite do crédito pago. \n - Se houver diferença de preço entre o produto escolhido e o produto reclamado, deverá ser providenciado o pagamento da diferença via depósito ou transferência bancária. \n **Laudo Contrário à Troca** \n O produto será devolvido sem direito de substituição. \n Itens de reprovação: \n - Ausência de defeito (não constatação do dano apontado pelo cliente). \n - Indícios de uso inadequado do produto. \n - Indícios de dano acidental. \n - Indícios de uso de produto ou substância imprópria. \n - Desgaste natural em decorrência do uso. \n - Lavagem inadequada do produto. \n\n **PRAZO DE DEVOLUÇÃO DE VALORES:** A restituição dos valores será processada somente após o recebimento e análise das condições do(s) produto(s) em nosso Centro de Distribuição. O produto não poderá trazer qualquer indício de uso. Não haverá restituição do valor do frete. \n \n ##INFORMAÇÕES IMPORTANTES \n - O prazo para desistir da compra do produto é de até sete dias corridos, a contar da data do recebimento; \n - O prazo para que finalize a solicitação de troca de mercadoria por outro modelo ou cor junto à nossa Central de Atendimento (SAC) é de no máximo 30 (trinta) dias corridos, contados a partir da data de recebimento da mercadoria. \n - Para ambas as trocas, o produto deverá ser encaminhado na embalagem original, sem indícios de uso, sem odores ou marcações no couro, e sem a violação do lacre original, acompanhado da nota fiscal, do manual e todos os demais acessórios que acompanham o produto; \n - Para realizar qualquer troca você deverá primeiramente entrar em contato com nossa Central de Atendimento (SAC) informando a condição do produto e sua solicitação; \n - Todos os produtos acusados com defeito, são recebidos em nosso Centro de Distribuição pelo Departamento de Qualidade e e passam por uma profunda analise para constatação da avaria informada pelo cliente. Eles serão reenviados ao cliente sempre que não for constatado qualquer defeito, ou se estiver sido descumprida uma das condições descritas na Politica de Troca e Devolução; \n - O reembolso será realizado no valor total do(s) produto(s) devolvido(s) /cancelado(s), exceto o valor do frete, no caso de ausência de promoção deste. \n - Reservamo-nos o direito de não atender a obrigação de cancelar ou trocar qualquer produto que apresente claramente indícios de mau uso, com base no código de defesa do consumidor.",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

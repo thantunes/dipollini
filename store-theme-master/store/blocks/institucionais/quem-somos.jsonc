@@ -1,0 +1,107 @@
+{
+    "store.custom#quemsomos":{
+      "blocks":[
+        "flex-layout.row#quemsomosContent"
+      ]
+    },
+    "flex-layout.row#quemsomosContent":{
+      "props":{
+        "blockClass":"quemsomosContent",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "flex-layout.col#quemsomosLinks-container",
+        "rich-text#quemsomosContent"
+      ]
+    },
+    "flex-layout.col#quemsomosLinks-container":{
+      "props":{
+        "blockClass":"quemsomosLinks-container",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+      },
+      "children":[
+       
+        "flex-layout.col#quemsomosLinks"
+      ]
+    },
+    "flex-layout.col#quemsomosLinks":{
+      "props":{
+        "blockClass":"InstitucionalLinks",
+        "preventHorizontalStretch":true
+      },
+      "children":[
+        "rich-text#quemsomos",
+        "rich-text#nossaslojas",
+        "rich-text#regulamentos",    
+        "rich-text#politicadeprivacidade",
+        "rich-text#troca",
+        "rich-text#prazodeentrega",
+        "rich-text#trabalheconosco"
+      ]
+    },
+   
+    "rich-text#regulamentos":{
+      "props":{
+        "text":"[Regulamentos](/institucional/regulamentos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#troca":{
+      "props":{
+        "text":"[Troca e Devolução](/institucional/troca)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#prazodeentrega":{
+      "props":{
+        "text":"[Prazo de entrega](/institucional/entrega)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+
+      
+      "rich-text#quemsomos":{
+      "props":{
+        "text":"[Quem Somos](/institucional/quem-somos)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#nossaslojas":{
+      "props":{
+        "text":"[Nossas Lojas](/institucional/nossas-lojas)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#promocao":{
+      "props":{
+        "text":"[Promoção](/institucional/promocao)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#garantia":{
+      "props":{
+        "text":"[Garantia](/institucional/garantia)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#politicadeprivacidade":{
+      "props":{
+        "text":"[Política de Privacidade](/institucional/politica-de-privacidade)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#trabalheconosco":{
+      "props":{
+        "text":"[Trabalhe Conosco](/institucional/trabalhe-conosco)",
+        "blockClass":"InstitucionalLink"
+      }
+    },
+    "rich-text#quemsomosContent":{
+      "props":{
+        "text":"# QUEM SOMOS \n ## A HISTÓRIA \n A história da Di Pollini começou na Itália com a família Belusci produzindo calçados artesanalmente com qualidade e excelência.\n Em 1974, iniciou sua fabricação no tradicional bairro da Mooca, reduto da imigração italiana em São Paulo, produzindo calçados com extremo conforto para todos os gostos e estilos. Contando com a parceria de vários estilistas italianos, tornou-se referência na linha social, mocassim , sapatênis e casual. \n Investindo em pesquisas, desenvolveu a linha Maggiore, que aumenta em até 7 cm a altura de forma discreta, devido a sua inovadora palmilha com elevação. Além disso, oferece um mix de acessórios como cintos, pastas, mochilas e pulseiras. \n\n ## NOSSOS VALORES \n ### Tradição italiana \n Os princípios da tradicional família italiana inspiram o dia-a-dia da Di Pollini. O cuidado, o amor, a amizade, a união e o respeito pela excelência se transformam no esmero, na confiança, na história e no acolhimento alegre presente nos sapatos e no atendimento personalíssimo da Di Pollini. Sinta-se em casa! \n\n ### Qualidade \n Qualidade é a tradução do cuidado, da técnica, do refinamento e do perfeccionismo com o qual os produtos da Di Pollini são fabricados. A qualidade dos nossos calçados e acessórios representa a principal credencial para a conquista da confiança dos consumidores.\n\n ### Senso estético \n Para a Di Pollini, senso estético representa toda a pesquisa e desenvolvimento que resulta na materialização do bom gosto e do design, elementos indispensáveis para se fazer jus à qualidade dos produtos Di Pollini.\n\n ### Honradez \n A honradez representa o brio, a integridade de caráter que sempre acompanhou a história da Di Pollini. Está presente no compromisso de entrega do melhor produto, na escolha cuidadosa das matérias-primas, na pesquisa apurada pelo design ideal. A defesa constante destes atributos diferencia os produtos Di Pollini. Em tempos de superficialidade, a Di Pollini oferece a solidez de sua palavra. \n\n ### Inovação \n Inovação para a Di Pollini representa a busca constante pelas últimas tendências de moda e design. Traduz a liderança de suas linhas, que sintetizam o bom gosto italiano e a versatilidade da moda brasileira. Para a Di Pollini, inovação deve conjugar qualidade e design aum preço acessível, experiência que somente quem controla o desenvolvimento, a produção e a comercialização é capaz de proporcionaraos seus consumidores. \n\n ### Conforto \n Conforto para a Di Pollini está intrinsecamente ligado ao bem-estar e aos momentos felizes da vida. Desta forma, os produtos Di Pollini são especialmente pensados para potencializar esses momentos - da escolha dos materiais ao cuidado com o acabamento, ser feliz para a Di Pollini é um objetivo de vida. \n\n ## VISÃO \n Ser reconhecida como a marca de calçados masculinos indispensável na vida do homem contemporâneo, estando presente no dia a dia de superação de desafios e em suas conquistas mais importantes. \n\n ## MISSÃO / COMPROMISSO \n Criar, fabricar e oferecer ao mercado masculino calçados e acessórios de alta qualidade, que expressem as últimas tendências, o bom gosto italiano e o sucesso intrínseco de quem os utilizar.",
+        "blockClass":"InstitucionalContent",
+        "title":"Conteudo da Pagina"
+      }
+    }
+  }

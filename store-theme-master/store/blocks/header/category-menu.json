@@ -1,0 +1,664 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#ele",
+      "menu-item#ela",
+
+      "menu-item#nossas-lojas",
+   
+       "menu-item#category-home"
+     
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Lojas",
+        "text": "Lojas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+
+
+
+  "menu-item#login": {
+    "props": {
+      "id": "menu-item-category-login",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": " /login?returnUrl=%2F",
+        "noFollow": false,
+        "tagTitle": "Login / Cadastre-se",
+        "text": "Login / Cadastre-se"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "menu-item#ele": {
+    "props": {
+      "id": "menu-item-custom-ele",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino",
+        "noFollow": true,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#ele"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ele": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-ele"
+    ]
+  },
+  "flex-layout.row#menu-ele": {
+    "children": [
+      "flex-layout.col#menu-ele-1",
+    
+      "flex-layout.col#menu-ele-2"
+     
+    ],
+    "props": {
+      "blockClass":"megamenu-bloco-ele"
+    }
+  },
+  "flex-layout.col#menu-ele-1": {
+    "children": [
+      "vtex.menu@2.x:menu#ele"
+    ]
+  },
+  "flex-layout.col#menu-ele-2": {
+    "children": [
+      "image#bannermegamenumasculino"
+    ]
+  },
+  "vtex.menu@2.x:menu#ele": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#maggiore",
+      "menu-item#social",
+      "menu-item#casual",
+      "menu-item#teniscasual",
+      "menu-item#mocassim",
+      "menu-item#botas",
+      "menu-item#sandalias",
+      "menu-item#acessorios",
+      "menu-item#outlet"
+    ]
+  },
+
+
+  "menu-item#maggiore": {
+    "props": {
+      "id": "menu-item-maggiore",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maggiore",
+        "noFollow": true,
+        "tagTitle": "Maggiore",
+        "text": "Maggiore"
+      }
+    }
+  },
+
+  "menu-item#social": {
+    "props": {
+      "id": "menu-item-social",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/social",
+        "noFollow": true,
+        "tagTitle": "Social",
+        "text": "Social"
+      }
+    }
+  },
+
+  "menu-item#casual": {
+    "props": {
+      "id": "menu-item-casual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/casual",
+        "noFollow": true,
+        "tagTitle": "Casual",
+        "text": "Casual"
+      }
+    }
+  },
+
+
+  "menu-item#teniscasual": {
+    "props": {
+      "id": "menu-item-teniscasual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tenis-casual",
+        "noFollow": true,
+        "tagTitle": "Tênis Casual",
+        "text": "Tênis Casual"
+      }
+    }
+  },
+
+
+  "menu-item#mocassim": {
+    "props": {
+      "id": "menu-item-mocassim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mocassim",
+        "noFollow": true,
+        "tagTitle": "Mocassim",
+        "text": "Mocassim"
+      }
+    }
+  },
+
+
+  "menu-item#botas": {
+    "props": {
+      "id": "menu-item-botas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botas",
+        "noFollow": true,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      }
+    }
+  },
+
+
+  "menu-item#sandalias": {
+    "props": {
+      "id": "menu-item-sandalias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sandalias",
+        "noFollow": true,
+        "tagTitle": "Sandálias",
+        "text": "Sandálias"
+      }
+    }
+  },
+
+
+
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": true,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": true,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#ela": {
+    "props": {
+      "id": "menu-item-custom-ela",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/feminino",
+        "noFollow": true,
+        "tagTitle": "Feminino",
+        "text": "Feminino"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#ela"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ela": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-ela"
+    ]
+  },
+  "flex-layout.row#menu-ela": {
+    "children": [
+      "flex-layout.col#menu-ela-1",
+    
+      "flex-layout.col#menu-ela-2"
+    ] ,
+    "props": {
+      "blockClass":"megamenu-bloco-ela"
+    }
+  },
+  "flex-layout.col#menu-ela-1": {
+    "children": [
+      "vtex.menu@2.x:menu#ela"
+    ]
+  },
+  "flex-layout.col#menu-ela-2": {
+    "children": [
+      "image#bannermegamenufeminino"
+    ]
+  },
+  "vtex.menu@2.x:menu#ela": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sapatos-feminino",
+      "menu-item#tenis-feminino",
+      "menu-item#sandalias-feminino",
+      "menu-item#sapatilhas-feminino",
+      "menu-item#rasteiras-feminino",
+      "menu-item#botas-feminino",
+      "menu-item#bolsas-feminino"
+    ]
+  },
+
+
+  "menu-item#sapatos-feminino": {
+    "props": {
+      "id": "sapatos-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sapatos---feminino",
+        "noFollow": true,
+        "tagTitle": "Sapatos",
+        "text": "Sapatos"
+      }
+    }
+  },
+
+
+  "menu-item#tenis-feminino": {
+    "props": {
+      "id": "tenis-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tenis---feminino",
+        "noFollow": true,
+        "tagTitle": "Tênis",
+        "text": "Tênis"
+      }
+    }
+  },
+
+  "menu-item#sandalias-feminino": {
+    "props": {
+      "id": "sandalias-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sandalias---feminino",
+        "noFollow": true,
+        "tagTitle": "Sandálias",
+        "text": "Sandálias"
+      }
+    }
+  },
+
+
+
+  "menu-item#sapatilhas-feminino": {
+    "props": {
+      "id": "sapatilhas-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sapatilhas---feminino",
+        "noFollow": true,
+        "tagTitle": "Sapatilhas",
+        "text": "Sapatilhas"
+      }
+    }
+  },
+
+
+  "menu-item#rasteiras-feminino": {
+    "props": {
+      "id": "rasteiras-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rasteiras---feminino",
+        "noFollow": true,
+        "tagTitle": "Rasteiras",
+        "text": "Rasteiras"
+      }
+    }
+  },
+
+
+  "menu-item#botas-feminino": {
+    "props": {
+      "id": "rasteiras-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botas---feminino",
+        "noFollow": true,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      }
+    }
+  },
+
+
+  "menu-item#bolsas-feminino": {
+    "props": {
+      "id": "bolsas-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsas",
+        "noFollow": true,
+        "tagTitle": "Bolsas",
+        "text": "Bolsas"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+
+  "image#bannermegamenumasculino": {
+    "props": {
+      "src": "/arquivos/banner-megamenu.jpg",
+      "blockClass": "bannermegamenumasculino"
+    }
+  },
+  "image#bannermegamenufeminino": {
+    "props": {
+      "src": "/arquivos/banner-megamenu.jpg",
+      "blockClass": "bannermegamenufeminino"
+    }
+  }
+
+}
