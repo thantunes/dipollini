@@ -229,8 +229,8 @@
   "flex-layout.row#menu-ele": {
     "children": [
       "flex-layout.col#menu-ele-1",
-    
       "flex-layout.col#menu-ele-2"
+    
      
     ],
     "props": {
@@ -448,7 +448,6 @@
   "flex-layout.row#menu-ela": {
     "children": [
       "flex-layout.col#menu-ela-1",
-    
       "flex-layout.col#menu-ela-2"
     ] ,
     "props": {
@@ -650,13 +649,13 @@
 
   "image#bannermegamenumasculino": {
     "props": {
-      "src": "/arquivos/banner-megamenu.jpg",
+      "src": "/arquivos/banner-megamenu-v2.jpg",
       "blockClass": "bannermegamenumasculino"
     }
   },
   "image#bannermegamenufeminino": {
     "props": {
-      "src": "/arquivos/banner-megamenu.jpg",
+      "src": "/arquivos/banner-megamenu-v2.jpg",
       "blockClass": "bannermegamenufeminino"
     }
   }
