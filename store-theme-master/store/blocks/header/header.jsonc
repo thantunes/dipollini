@@ -46,7 +46,7 @@
       "flex-layout.col#frete-gratis",
       "flex-layout.col#parcelamento",
       "flex-layout.col#pix",
-      "flex-layout.col#troca"
+      "flex-layout.col#trocabene"
 
     ]
   },
@@ -92,12 +92,12 @@
     }
   },
 
-  "flex-layout.col#troca":{
+  "flex-layout.col#trocabene":{
     "children": [
-      "rich-text#troca"
+      "rich-text#trocabene"
     ]
   },
-  "rich-text#troca": {
+  "rich-text#trocabene": {
     "props": {
       "text": "primeira troca grátis",
       "blockClass": "texto-barra-cinza-topo"
