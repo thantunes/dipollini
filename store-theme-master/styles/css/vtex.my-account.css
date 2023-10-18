@@ -1804,7 +1804,7 @@ color: #493030;
 }
 
 @media screen and (max-width: 980px){
-  
+  :global(.vtex-rich-text-0-x-container--cupom-de-desconto-home){   margin-bottom: 0px;}
     :global(.vtex-rich-text-0-x-container--barra-fixa-mobile-troca-gratis){
         background-image: url(/arquivos/mobile-primeira-troca-gratis.png);
         padding-top: 55px;
