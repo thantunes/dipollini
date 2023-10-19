@@ -99,7 +99,7 @@
 
       "aspectRatio": {
         "desktop": "auto",
-        "phone": "16:9"
+        "phone": "1:1"
       },
       "displayThumbnailsArrows": true
     }
