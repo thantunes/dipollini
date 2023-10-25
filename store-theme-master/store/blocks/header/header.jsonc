@@ -134,6 +134,7 @@
       "search-bar",
       "locale-switcher",
       "login",
+      "flex-layout.col#favoritos",
       "minicart.v2"
     ]
   },
@@ -143,6 +144,32 @@
     },
     "children": ["logo#desktop"]
   },
+
+
+
+  "flex-layout.col#favoritos": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["image#icone-favoritos"]
+  },
+
+
+
+
+  "image#icone-favoritos": {
+    "props": {
+      "src": "/arquivos/favoritos-icon-header.png",
+      "blockClass": "icone-favoritos-header",
+      "link":{
+        "url":"/wishlist"
+      }
+    }
+  },
+
+
+
+
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
@@ -203,7 +230,8 @@
   "menu#drawer": {
     "children": [
       "login",
-     
+    
+      "rich-text#favoritos",
       "vtex.menu@2.x:menu#masculino-mobile",
       "vtex.menu@2.x:menu#feminino-mobile",
       "menu-item#category-apparel",
@@ -211,6 +239,17 @@
     ],
     "props": {
       "orientation": "vertical"
+    }
+  },
+
+
+  "rich-text#favoritos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Favoritos](/wishlist)",
+
+      "blockClass": "favoritos-menu-mobile"
     }
   },
 
