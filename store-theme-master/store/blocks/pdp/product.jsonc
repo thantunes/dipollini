@@ -8,7 +8,7 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
 
-
+     
       "product-reviews",
       "product-questions-and-answers"
     ],
@@ -124,6 +124,7 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
+
       "availability-subscriber",
       "shipping-simulator",
       "flex-layout.row#botao-atendente-whats",
@@ -186,7 +187,7 @@
       "marginBottom": 7,
       "blockClass":"botao-comprar-pdp"
     },
-    "children": ["add-to-cart-button"]
+    "children": ["add-to-cart-button","add-to-list-btn"]
   },
 
   "flex-layout.row#product-availability": {
