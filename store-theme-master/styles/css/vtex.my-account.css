@@ -205,6 +205,16 @@
 
     }
 
+    :global(.vtex-store-components-3-x-productDescriptionText){    max-width: 1260px;
+        margin: auto;}
+
+        :global(.vtex-store-components-3-x-productDescriptionTitle){
+
+            max-width: 1260px;
+            margin: auto;
+            margin-bottom: 18px;
+        }
+
     :global(.vtex-minicart-2-x-minicartIconContainer)
     :global(.bg-emphasis){
 
