@@ -27,6 +27,10 @@
         "text": "Lojas"
       }
     },
+
+
+   
+
     "blocks": [
       "vtex.menu@2.x:submenu#category-apparel"
     ]
