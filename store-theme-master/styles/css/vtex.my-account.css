@@ -6,6 +6,65 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header){    background: #fff!important;
     border: none;}
 
+    :global(.vtex-wish-list-1-x-wishlistIconContainer){   text-align: right;}
+
+    :global(.vtex-wish-list-1-x-wishlistIconContainer)
+    :global(.hover-bg-action-secondary){background-color:transparent!important;}
+
+
+    :global(.vtex-wish-list-1-x-wishlistIconContainer)
+    :global(.vtex-button):hover
+    :global(.vtex-wish-list-1-x-wishlistIcon){background: url(/arquivos/btnFav-whishlist-add.png);
+        background-size: contain;
+        background-repeat: no-repeat;}
+
+
+    :global(.vtex-wish-list-1-x-outline) {
+        background: url(/arquivos/btnFav-whishlist.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+     
+    }
+
+    :global(.render-route-store-wishlist)
+    :global(.vtex-flex-layout-0-x-flexCol--titleWishlist){    background-color: #fff;}
+
+    :global(.render-route-store-wishlist)
+    :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf){    background-color: #fff;}
+
+   
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--botao-comprar-pdp)
+    :global(.pr7.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):first-child { margin-left: 0px;   width: 80%!important;    padding-right: 0;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--botao-comprar-pdp)
+    :global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):last-child { width: 20%!important;
+        margin-left: -35px;}
+
+
+
+    :global(.render-route-store-wishlist)
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer){      
+      
+        background-color: #fff;}
+
+        :global(.render-route-store-wishlist)
+        :global(.vtex-slider-layout-0-x-sliderLayoutContainer)
+        :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf){  margin: auto;
+
+            max-width: 1440px;
+        }
+
+    :global(.render-route-store-wishlist)
+    :global(.vtex-flex-layout-0-x-flexCol--titleWishlist)
+    :global(.vtex-rich-text-0-x-container--favoritos-titulo){       max-width: 1380px;
+        margin: auto;}
+
+    :global(.vtex-wish-list-1-x-fill) {
+        background: url(/arquivos/btnFav-whishlist-add.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
    
     :global(.vtex-search-result-3-x-filter__container--category-1){display:none;}
     :global(.vtex-search-result-3-x-filter__container--cor){display:none;}
@@ -421,6 +480,60 @@ color: #493030;
         :global(.render-route-store-custom-garantia)
         :global(.flex.flex-grow-1.w-100.flex-column){background-color: #fff;} 
 
+        :global(.vtex-login-2-x-button)
+        :global(.vtex-button){    font-family: 'Outfit',sans-serif;
+            text-transform: none;
+            color: #000;
+            font-size: 14px;    margin: auto;
+            display: block;}
+
+            :global(.vtex-login-2-x-inputContainerAccessCode)
+            :global(#placeholder){
+                font-size: 14px!important;
+            }
+
+           :global(.vtex-my-account-1-x-menuLinks) 
+           :global(a.vtex-account_menu-link.f6.no-underline.db.hover-near-black.pv5.mv3.pl5.bl.bw2.nowrap.c-on-base.b.b--action-primary) {
+            color: #fff;
+        }
+
+            :global(.vtex-rich-text-0-x-container--favoritos-menu-mobile){width:100%;}
+            :global(.vtex-rich-text-0-x-wrapper--favoritos-menu-mobile){width:100%;}
+            :global(.vtex-rich-text-0-x-link--favoritos-menu-mobile){
+                text-decoration: none;
+                display: block;
+                min-width: 165px;
+                color: #000!important;
+                font-family: Outfit!important;
+                font-size: 18px!important;
+                font-style: normal!important;
+                font-weight: 400!important;
+                line-height: normal!important;
+                display: block;
+                padding-left: 0;
+                text-transform: capitalize;
+            }
+
+
+            :global(.vtex-rich-text-0-x-wrapper--favoritos-menu-mobile){
+                background-image: url(https://dipollini.vtexassets.com/arquivos/favoritos-icon-header.png);
+                background-position: left center;
+                background-repeat: no-repeat;
+                text-align: left;
+                padding-left: 40px;
+                margin-left: 20px;
+
+            }
+
+
+            :global(.vtex-menu-2-x-menuContainerNav--menu-masculino-mobile){    padding-left: 13px;}
+            :global(.vtex-menu-2-x-menuContainerNav--menu-feminino-mobile){    padding-left: 13px;}
+            :global(.vtex-store-components-3-x-imageElement--icone-favoritos-header){
+
+                max-width: 23px;
+                margin-top: 6px;
+                margin-right: 8px;
+            }
 
         :global(.vtex-flex-layout-0-x-flexRowContent--politicaContent){max-width: 1400px;margin: auto;background-color: #fff;}
         :global(.vtex-flex-layout-0-x-flexRowContent--politicaContent)
@@ -1806,6 +1919,23 @@ color: #493030;
 }
 
 @media screen and (max-width: 980px){
+
+
+    :global(.vtex-wish-list-1-x-wishlistIconContainer)
+:global(.vtex-button__label){    padding: 0px;
+    margin-left: -25px;}
+
+
+    
+    :global(.vtex-flex-layout-0-x-flexRowContent--botao-comprar-pdp)
+    :global(.pr7-ns.pb0.pb0-ns.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):first-child {     width: 80%!important;
+        justify-content: left!important;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--botao-comprar-pdp)
+    :global(.pr0-ns.pb0.pb0-ns.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex):last-child {    width: 20%!important;
+        justify-content: right!important;
+        float: right!important;
+        margin-top: -50px!important;}
 
     :global(.render-route-store-home)
     :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
