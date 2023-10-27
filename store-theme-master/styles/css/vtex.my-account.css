@@ -80,6 +80,9 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {background-color: #D9D9D9!important;}
 
 
+:global(.vtex-slider-layout-0-x-paginationDot.vtex-slider-layout-0-x-paginationDot--carousel.bg-muted-3.grow.dib.br-100.pa2.mr2.ml2.bw0.pointer.outline-0) {
+    background-color: #fff;
+}
 
 
 
@@ -131,6 +134,9 @@
         background: #F6F6F6;
        
     }
+
+
+
 
     :global(.vtex-store-components-3-x-searchBarContainer) 
     :global(.vtex-input-prefix__group) {
@@ -1036,8 +1042,8 @@ color: #493030;
     }
 
     :global(.bg-emphasis) {
-        background-color: #FBAF2B;
-        width: 50px!important;
+        background-color: #cacbcc;
+      
         border-radius: 12px!important;
         transition: 0.1s!important;
     }
