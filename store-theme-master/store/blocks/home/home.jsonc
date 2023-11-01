@@ -36,6 +36,8 @@
       "rich-text#shelf-title-esportiva",
       "flex-layout.row#shelf-esportiva",
       "flex-layout.row#home-sobre-a-dipollini"
+      
+   
 
    //   "rich-text#question",
     //  "rich-text#link",
@@ -252,7 +254,7 @@
 
   "image#carrousel-sapatenis": {
     "props": {
-      "src": "/arquivos/slider-home-io-Sapatenis.png",
+      "src": "/arquivos/tenis-casual-v2.png",
       "link":{
         "url":"/tenis-casual"
       }
@@ -492,7 +494,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "skusFilter": "ALL_AVAILABLE",
-      "collection": "211"
+      "collection": "219"
     }
   },
   "slider-layout#demo-products": {
@@ -548,7 +550,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products-esportivo"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "217"
     }
   },
   "slider-layout#demo-products-esportivo": {
@@ -581,7 +584,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products-classico"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "218"
     }
   },
   "slider-layout#demo-products-classico": {
@@ -676,7 +680,7 @@
     "children": ["slider-layout#demo-products-executiva"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "collection": "212"
+      "collection": "221"
     }
   },
   "slider-layout#demo-products-executiva": {
@@ -709,7 +713,7 @@
     "children": ["slider-layout#demo-products-casual"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "collection": "212"
+      "collection": "222"
     }
   },
   "slider-layout#demo-products-casual": {
@@ -741,7 +745,7 @@
     "children": ["slider-layout#demo-products-esportiva"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "collection": "212"
+      "collection": "220"
     }
   },
   "slider-layout#demo-products-esportiva": {
