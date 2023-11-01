@@ -189,7 +189,7 @@
     "children": [
       "vtex.store-components:product-brand#summaryListMobile",
       "product-summary-name#summaryListMobile",
-      "product-rating-inline"
+      "yv-product-rating-inline"
     ]
   },
   "flex-layout.col#summaryDownDetailsListMobile": {
