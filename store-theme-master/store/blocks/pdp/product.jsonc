@@ -9,8 +9,8 @@
       "shelf.relatedProducts",
 
      
-      "product-reviews",
-      "product-questions-and-answers"
+      "yv-product-reviews",
+      "yv-product-questions-and-answers"
     ],
     "props": {
       "blockClass": "pagina-de-produto"
@@ -112,7 +112,7 @@
     "children": [
       
       "flex-layout.row#product-name",
-      "product-rating-summary",
+      "yv-product-rating-summary",
       "product-price-savings#summaryPercentage",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
