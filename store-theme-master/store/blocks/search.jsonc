@@ -215,12 +215,16 @@
 
   "search-result-layout.mobile": {
     "children": [
+
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
+      "flex-layout.row#banner-one",
+
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#banner-two"
     ],
     "props": {
       "pagination": "show-more",
