@@ -2077,7 +2077,13 @@ color: #493030;
 :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf)
 :global(.vtex-slider-layout-0-x-caretIcon) {    width: 10px;}
 
+
+@media screen and (max-width: 980px){
+    :global(.banner-departamento-desktop){display:none;}
+}
+
 @media screen and (min-width: 981px){
+    :global(.banner-departamento-mobile){display:none;}
     :global(.vtex-store-footer-2-x-socialNetworksContainer){    margin-left: 50px;}
     :global(.vtex-rich-text-0-x-paragraph--contatofooter){    margin-left: 14px;}
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf)
