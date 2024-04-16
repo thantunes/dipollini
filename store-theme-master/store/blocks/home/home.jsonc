@@ -514,7 +514,7 @@
 
   "rich-text#home-cupom-de-desconto": {
     "props": {
-      "text": "**GANHE 5%OFF** NA PRIMEIRA COMPRA COM O CUPOM - *USE5DIPO*",
+      "text": "**GANHE 5%OFF** NA PRIMEIRA COMPRA COM O CUPOM - *PRIMEIRODIPO*",
       "blockClass": "cupom-de-desconto-home"
     }
   },
