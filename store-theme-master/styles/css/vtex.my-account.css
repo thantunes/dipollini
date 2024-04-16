@@ -3,14 +3,16 @@
 /* -------------- HEADER -----------------*/
 
 
+
 /* ---------------------- CAMPANHA CARNAVAL ---------------------- */
 
-:global(.vtex-rich-text-0-x-paragraph--texto-barra-cinza-topo){display:none!important;}
-:global(.vtex-rich-text-0-x-paragraph--cupom-de-desconto-home){display:none!important;}
-:global(.vtex-flex-layout-0-x-flexRowContent--bloco-barra-fixa-mobile){display:none!important;}
-:global(.vtex-flex-layout-0-x-flexRow--bloco-barra-fixa-mobile){min-height: 0px!important;padding-top: 0px!important;}
+/* :global(.vtex-rich-text-0-x-paragraph--texto-barra-cinza-topo){display:none!important;}*/
+/* :global(.vtex-rich-text-0-x-paragraph--cupom-de-desconto-home){display:none!important;}*/
+/* :global(.vtex-flex-layout-0-x-flexRowContent--bloco-barra-fixa-mobile){display:none!important;}*/
+/* :global(.vtex-flex-layout-0-x-flexRow--bloco-barra-fixa-mobile){min-height: 0px!important;padding-top: 0px!important;}*/
 
 /* ---------------------- END - CAMPANHA CARNAVAL ---------------------- */
+
 
 :global(.yourviews-yourviewsreviews-1-x-reviewsSectionTitle){
     color: #493030;
