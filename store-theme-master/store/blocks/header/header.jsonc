@@ -60,7 +60,7 @@
 
   "rich-text#frete-gratis": {
     "props": {
-      "text": "Frete grátis acima de R$500,00 para sp capital",
+      "text": "Frete grátis acima de R$600,00 para sp capital",
       "blockClass": "texto-barra-cinza-topo"
     }
   },
