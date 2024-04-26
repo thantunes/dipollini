@@ -312,7 +312,8 @@
               "rich-text#nossas-lojas-end-telefone-loja-bloco4",
               "rich-text#nossas-lojas-whatsapp-bloco4",
               "rich-text#nossas-lojas-horarios-bloco4",
-              "rich-text#nossas-lojas-end-como-chegar-bloco4"
+              "rich-text#nossas-lojas-end-como-chegar-bloco4",
+              "rich-text#nossas-lojas-indisponivel-bloco4"
             ],
             "props": {
               "preventVerticalStretch": true
@@ -326,7 +327,7 @@
           },
           "rich-text#nossas-lojas-end-bloco4": {
             "props": {
-              "text": "Av. Sumaré, 600 - Perdizes - São Paulo/SP",
+              "text": "Av. Sumaré, 1299 - cep 05016-110",
               "blockClass": "end-loja"
             }
           },
@@ -354,10 +355,18 @@
           },
           "rich-text#nossas-lojas-end-como-chegar-bloco4": {
               "props": {
-                "text": "[Como Chegar](https://maps.app.goo.gl/bLbu6fo6BdCtjsW3A)",
+                "text": "[Como Chegar](https://maps.app.goo.gl/rcoAvUDrCx2FBz519)",
                 "blockClass": "como-chegar-loja"
               }
             },
+
+            "rich-text#nossas-lojas-indisponivel-bloco4": {
+              "props": {
+                "text": "**LOJA FECHADA** REABERTURA EM JUNHO",
+                "blockClass": "loja-fechada"
+              }
+            },
+
 
 
             "flex-layout.row#nossas-lojas-bloco-3": {
