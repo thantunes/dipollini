@@ -14,6 +14,7 @@
 /* ---------------------- END - CAMPANHA CARNAVAL ---------------------- */
 
 
+
 :global(.yourviews-yourviewsreviews-1-x-reviewsSectionTitle){
     color: #493030;
     font-family: Outfit;
@@ -2712,4 +2713,13 @@ min-width:    165px;
 
         :global(.vtex-rich-text-0-x-paragraph--about){    font-size: 14px;    line-height: 24px;}
 
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-topo) {position: relative;}
+:global(.vtex-rich-text-0-x-paragraph--loja-fechada){      font-size: 13px;  position: absolute;top: 20px;right: 30px;box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.2);padding: 8px;}
+:global(.vtex-rich-text-0-x-strong--loja-fechada){ display: block;text-align: center;    font-size: 18px;}
+
+@media screen and (max-width: 980px){
+    :global(.vtex-rich-text-0-x-paragraph--loja-fechada){    position: static!important;}
 }
