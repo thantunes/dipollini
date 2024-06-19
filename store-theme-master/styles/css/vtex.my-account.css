@@ -2723,3 +2723,25 @@ min-width:    165px;
 @media screen and (max-width: 980px){
     :global(.vtex-rich-text-0-x-paragraph--loja-fechada){    position: static!important;}
 }
+
+
+:global(.vtex-menu-2-x-menuItem):nth-child(1)
+:global(.vtex-menu-2-x-styledLinkContainer):nth-child(1)
+:global(.vtex-menu-2-x-styledLinkContent){cursor:default;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--megamenu-bloco-ele)
+:global(.vtex-menu-2-x-styledLinkContent){cursor:pointer!important;}
+
+
+:global(.vtex-menu-2-x-menuItem):nth-child(2)
+:global(.vtex-menu-2-x-styledLinkContainer):nth-child(1)
+:global(.vtex-menu-2-x-styledLinkContent){cursor:default;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--megamenu-bloco-ela)
+:global(.vtex-menu-2-x-styledLinkContent){cursor:pointer!important;}
+
+
