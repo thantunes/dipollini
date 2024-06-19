@@ -2748,3 +2748,10 @@ min-width:    165px;
 :global(.vtex-menu-2-x-styledLinkContent){cursor:pointer!important;}
 
 
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-menuContainerNav--menu-feminino-mobile), 
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-menuContainerNav--menu-masculino-mobile) {
+    padding-left: 0px;
+}
