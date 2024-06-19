@@ -1174,9 +1174,12 @@ color: #493030;
     margin: auto;
 }
 
-:global(.vtex-store-components-3-x-imageElement--vtex-feito-com-orgulho){    width: 50px;
+:global(.vtex-store-components-3-x-imageElement--vtex-feito-com-orgulho){        width: 50px;
     height: 25px;
-    margin-top: 8px}
+    /* margin-top: 8px; */
+    display: block;
+    margin: auto;
+    margin-top: 8px;}
 
 :global(.vtex-flex-layout-0-x-flexColChild--contatofooterarea){    height: auto!important;    min-height: 45px;}
 
