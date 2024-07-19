@@ -234,7 +234,9 @@
 
       "rich-text#favoritos",
       "vtex.menu@2.x:menu#masculino-mobile",
+      
       "vtex.menu@2.x:menu#feminino-mobile",
+      "menu-item#dia-dos-pais",
       "menu-item#category-apparel",
       "menu-item#category-home"
     ],
