@@ -2760,3 +2760,11 @@ min-width:    165px;
   border-bottom: 2px solid #fbaf2b;
   padding-bottom: 0;
 }
+
+:global(.vtex-menu-2-x-styledLinkContent--link-dia-dos-pais) {
+  cursor: pointer !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--cursor-default-ela) {
+  cursor: default;
+}

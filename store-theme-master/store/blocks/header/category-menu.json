@@ -446,6 +446,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": ["cursor-default-ela"],
       "itemProps": {
         "type": "internal",
         "href": "/feminino",
