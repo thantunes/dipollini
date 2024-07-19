@@ -2097,6 +2097,17 @@ color: #493030;
     :global(.banner-departamento-desktop){display:none;}
 }
 
+
+@media screen and (max-width: 860px){
+:global(.vtex-menu-2-x-styledLinkContainer--link-dia-dos-pais) {
+    border-bottom: 2px solid #fbaf2b;
+    max-width: 100px;
+    margin-left: 19px;
+    padding-bottom: 3px !important;
+  }
+
+}
+
 @media screen and (min-width: 981px){
     :global(.banner-departamento-mobile){display:none;}
     :global(.vtex-store-footer-2-x-socialNetworksContainer){    margin-left: 50px;}
