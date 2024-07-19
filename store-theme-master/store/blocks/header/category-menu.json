@@ -5,13 +5,30 @@
     },
     "children": [
       "menu-item#ele",
+      "menu-item#dia-dos-pais",
       "menu-item#ela",
 
       "menu-item#nossas-lojas",
-   
+
        "menu-item#category-home"
-     
+
     ]
+  },
+  "menu-item#dia-dos-pais": {
+    "props": {
+      "id": "menu-item-dias-dos-pais",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "link-dia-dos-pais",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dia-dos-pais",
+        "noFollow": true,
+        "tagTitle": "Dia dos Pais",
+        "text": "Dia dos Pais"
+      }
+    }
   },
   "menu-item#category-apparel": {
     "props": {
@@ -29,7 +46,7 @@
     },
 
 
-   
+
 
     "blocks": [
       "vtex.menu@2.x:submenu#category-apparel"
@@ -234,8 +251,8 @@
     "children": [
       "flex-layout.col#menu-ele-1",
       "flex-layout.col#menu-ele-2"
-    
-     
+
+
     ],
     "props": {
       "blockClass":"megamenu-bloco-ele"

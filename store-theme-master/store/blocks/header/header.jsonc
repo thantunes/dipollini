@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link"
@@ -126,7 +126,7 @@
       "fullWidth": true
     },
     "children": [
-      
+
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
@@ -172,7 +172,8 @@
 
   "flex-layout.col#category-menu": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "category-menu-header"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
@@ -213,7 +214,7 @@
       "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      
+
       "minicart.v2"
     ],
     "props": {
@@ -230,7 +231,7 @@
   "menu#drawer": {
     "children": [
       "login",
-    
+
       "rich-text#favoritos",
       "vtex.menu@2.x:menu#masculino-mobile",
       "vtex.menu@2.x:menu#feminino-mobile",
@@ -270,7 +271,7 @@
       "blockClass":"menu-masculino-mobile"
     },
     "children": [
-     
+
       "menu-item#masculino-mobile"
     ]
   },
@@ -304,7 +305,7 @@
       "menu-item#sandalias",
       "menu-item#acessorios",
       "menu-item#outlet"
-   
+
 
     ]
   },
@@ -318,7 +319,7 @@
       "blockClass":"menu-feminino-mobile"
     },
     "children": [
-     
+
       "menu-item#feminino-mobile"
     ]
   },
@@ -350,7 +351,7 @@
       "menu-item#rasteiras-feminino",
       "menu-item#botas-feminino",
       "menu-item#bolsas-feminino"
-   
+
 
     ]
   },
@@ -364,7 +365,7 @@
       "blockClass":"menu-institucional-mobile"
     },
     "children": [
-     
+
       "menu-item#institucional-mobile"
     ]
   },
@@ -406,7 +407,7 @@
       "blockClass":"menu-ajuda-mobile"
     },
     "children": [
-     
+
       "menu-item#ajuda-mobile"
     ]
   },
@@ -447,7 +448,7 @@
       "blockClass":"menu-atendimento-mobile"
     },
     "children": [
-     
+
       "menu-item#atendimento-mobile"
     ]
   },
