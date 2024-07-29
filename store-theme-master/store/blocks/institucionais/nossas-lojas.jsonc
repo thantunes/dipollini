@@ -1,7 +1,7 @@
 {
 "store.custom#nossas-lojas":{
     "blocks":[
-       
+
       "flex-layout.row#duvidasContent"
     ]
   },
@@ -12,7 +12,7 @@
         "blockClass":"nossaslojastitulo"
       }
   },
-  
+
   "flex-layout.row#duvidasContent":{
     "props":{
       "blockClass":"nossas-lojasContent",
@@ -30,7 +30,7 @@
       "preventVerticalStretch":true
     },
     "children":[
-     
+
       "flex-layout.col#duvidasLinks"
     ]
   },
@@ -42,7 +42,7 @@
     "children":[
       "rich-text#quemsomos",
       "rich-text#nossaslojas",
-      "rich-text#regulamentos",    
+      "rich-text#regulamentos",
       "rich-text#politicadeprivacidade",
       "rich-text#troca",
       "rich-text#prazodeentrega",
@@ -69,10 +69,10 @@
       "blockClass":"InstitucionalLink"
     }
   },
- 
- 
 
-    
+
+
+
     "rich-text#quemsomos":{
     "props":{
       "text":"[Quem Somos](/institucional/quem-somos)",
@@ -111,7 +111,7 @@
   },
 
 
-  
+
 
 
     "flex-layout.col#lojas-container": {
@@ -121,7 +121,7 @@
         "flex-layout.row#nossas-lojas-bloco-2",
         "flex-layout.row#nossas-lojas-bloco-3",
         "flex-layout.row#nossas-lojas-bloco-4",
-        "flex-layout.row#nossas-lojas-bloco-5"  
+        "flex-layout.row#nossas-lojas-bloco-5"
       ]
     },
 
@@ -139,7 +139,7 @@
     },
     "flex-layout.col#text-nossas-lojas": {
       "children": [
-        "rich-text#nossas-lojas-title", 
+        "rich-text#nossas-lojas-title",
         "rich-text#nossas-lojas-end",
         "rich-text#nossas-lojas-end-telefone-loja",
         "rich-text#nossas-lojas-whatsapp",
@@ -168,7 +168,7 @@
         "blockClass": "telefone-fixo"
       }
     },
-    
+
     "rich-text#nossas-lojas-whatsapp": {
       "props": {
         "text": "(11) 94296-0431",
@@ -196,7 +196,7 @@
       },
       "flex-layout.col#text-nossas-lojas-bloco2": {
         "children": [
-          "rich-text#nossas-lojas-title-bloco2", 
+          "rich-text#nossas-lojas-title-bloco2",
           "rich-text#nossas-lojas-end-bloco2",
           "rich-text#nossas-lojas-end-telefone-loja-bloco2",
           "rich-text#nossas-lojas-horarios-bloco2",
@@ -224,8 +224,8 @@
           "blockClass": "telefone-fixo"
         }
       },
-      
-      
+
+
       "rich-text#nossas-lojas-horarios-bloco2": {
         "props": {
           "text": "Segunda à Sábado: 09:00 às 20:00 \n Domingos: 10:00 às 18:00 \n Feriados:10:00 às 16:00",
@@ -246,7 +246,7 @@
             }
           },
 
-       
+
       "flex-layout.row#nnossas-lojas-bloco3": {
         "children": ["flex-layout.col#text-nossas-lojas-bloco3"],
         "props":{
@@ -255,7 +255,7 @@
       },
       "flex-layout.col#text-nossas-lojas-bloco3": {
         "children": [
-          "rich-text#nossas-lojas-title-bloco3", 
+          "rich-text#nossas-lojas-title-bloco3",
           "rich-text#nossas-lojas-end-bloco3",
           "rich-text#nossas-lojas-end-telefone-loja-bloco3",
           "rich-text#nossas-lojas-horarios-bloco3",
@@ -283,8 +283,8 @@
           "blockClass": "telefone-fixo"
         }
       },
-      
-      
+
+
       "rich-text#nossas-lojas-horarios-bloco3": {
         "props": {
           "text": "Segunda à Sábado: 09:00 às 20:00 \n Domingos: 10:00 às 18:00 \n Feriados:10:00 às 16:00",
@@ -307,13 +307,14 @@
           },
           "flex-layout.col#text-nossas-lojas-bloco4": {
             "children": [
-              "rich-text#nossas-lojas-title-bloco4", 
+              "rich-text#nossas-lojas-title-bloco4",
               "rich-text#nossas-lojas-end-bloco4",
               "rich-text#nossas-lojas-end-telefone-loja-bloco4",
               "rich-text#nossas-lojas-whatsapp-bloco4",
               "rich-text#nossas-lojas-horarios-bloco4",
-              "rich-text#nossas-lojas-end-como-chegar-bloco4",
-              "rich-text#nossas-lojas-indisponivel-bloco4"
+              "rich-text#nossas-lojas-end-como-chegar-bloco4"
+
+              // "rich-text#nossas-lojas-indisponivel-bloco4"
             ],
             "props": {
               "preventVerticalStretch": true
@@ -327,7 +328,7 @@
           },
           "rich-text#nossas-lojas-end-bloco4": {
             "props": {
-              "text": "Av. Sumaré, 1299 - cep 05016-110",
+              "text": "Av. Sumaré, 1293 - cep 05016-110",
               "blockClass": "end-loja"
             }
           },
@@ -345,8 +346,8 @@
               "blockClass": "nossas-lojas-whats"
             }
           },
-          
-          
+
+
           "rich-text#nossas-lojas-horarios-bloco4": {
             "props": {
               "text": "Segunda à Sábado: 09:00 às 20:00 \n Domingos: 10:00 às 16:00 \n Feriados:10:00 às 16:00",
@@ -375,7 +376,7 @@
                   "blockClass": "nossas-lojas-bloco"
                 }
               },
-          
+
         "flex-layout.row#nnossas-lojas-bloco5": {
             "children": ["flex-layout.col#text-nossas-lojas-bloco5"],
             "props":{
@@ -384,7 +385,7 @@
           },
           "flex-layout.col#text-nossas-lojas-bloco5": {
             "children": [
-              "rich-text#nossas-lojas-title-bloco5", 
+              "rich-text#nossas-lojas-title-bloco5",
               "rich-text#nossas-lojas-end-bloco5",
               "rich-text#nossas-lojas-end-telefone-loja-bloco5",
            //   "rich-text#nossas-lojas-whatsapp-bloco5",
@@ -421,8 +422,8 @@
               "blockClass": "nossas-lojas-whats"
             }
           },
-          
-          
+
+
           "rich-text#nossas-lojas-horarios-bloco5": {
             "props": {
               "text": "Segunda à Sábado: 09:00 às 22:00 \n Domingos e feriados: 14:00 às 20:00",
@@ -444,7 +445,7 @@
               },
               "flex-layout.col#text-nossas-lojas-bloco6": {
                 "children": [
-                  "rich-text#nossas-lojas-title-bloco6", 
+                  "rich-text#nossas-lojas-title-bloco6",
                   "rich-text#nossas-lojas-end-bloco6",
                   "rich-text#nossas-lojas-end-telefone-loja-bloco6",
                  "rich-text#nossas-lojas-whatsapp-bloco6",
@@ -473,16 +474,16 @@
                   "blockClass": "telefone-fixo"
                 }
               },
-    
-    
+
+
               "rich-text#nossas-lojas-whatsapp-bloco6": {
                 "props": {
                   "text": "(0xx11) 95775-1033",
                   "blockClass": "nossas-lojas-whats"
                 }
               },
-              
-              
+
+
               "rich-text#nossas-lojas-horarios-bloco6": {
                 "props": {
                   "text": "Segunda à Sábado: 09:00 às 22:00 \n Domingos e feriados: 14:00 às 20:00",
@@ -495,14 +496,14 @@
                     "blockClass": "como-chegar-loja"
                   }
                 },
-             
+
             "flex-layout.row#nossas-lojas-bloco-4": {
                 "children": ["flex-layout.row#nnossas-lojas-bloco7", "flex-layout.row#nnossas-lojas-bloco8"],
                 "props":{
                   "blockClass": "nossas-lojas-bloco"
                 }
               },
-  
+
             "flex-layout.row#nnossas-lojas-bloco7": {
                 "children": ["flex-layout.col#text-nossas-lojas-bloco7"],
                 "props":{
@@ -511,7 +512,7 @@
               },
               "flex-layout.col#text-nossas-lojas-bloco7": {
                 "children": [
-                  "rich-text#nossas-lojas-title-bloco7", 
+                  "rich-text#nossas-lojas-title-bloco7",
                   "rich-text#nossas-lojas-end-bloco7",
                   "rich-text#nossas-lojas-end-telefone-loja-bloco7",
                //  "rich-text#nossas-lojas-whatsapp-bloco7",
@@ -540,16 +541,16 @@
                   "blockClass": "telefone-fixo"
                 }
               },
-    
-    
+
+
               "rich-text#nossas-lojas-whatsapp-bloco7": {
                 "props": {
                   "text": "0",
                   "blockClass": "nossas-lojas-whats"
                 }
               },
-              
-              
+
+
               "rich-text#nossas-lojas-horarios-bloco7": {
                 "props": {
                   "text": "Segunda à Sábado: 09:00 às 22:00 \n Domingos e feriados: 14:00 às 20:00",
@@ -562,7 +563,7 @@
                     "blockClass": "como-chegar-loja"
                   }
                 },
-    
+
                 "flex-layout.row#nnossas-lojas-bloco8": {
                     "children": ["flex-layout.col#text-nossas-lojas-bloco8"],
                     "props":{
@@ -571,7 +572,7 @@
                   },
                   "flex-layout.col#text-nossas-lojas-bloco8": {
                     "children": [
-                      "rich-text#nossas-lojas-title-bloco8", 
+                      "rich-text#nossas-lojas-title-bloco8",
                       "rich-text#nossas-lojas-end-bloco8",
                       "rich-text#nossas-lojas-end-telefone-loja-bloco8",
                    //  "rich-text#nossas-lojas-whatsapp-bloco7",
@@ -600,16 +601,16 @@
                       "blockClass": "telefone-fixo"
                     }
                   },
-        
-        
+
+
                   "rich-text#nossas-lojas-whatsapp-bloco8": {
                     "props": {
                       "text": "0",
                       "blockClass": "nossas-lojas-whats"
                     }
                   },
-                  
-                  
+
+
                   "rich-text#nossas-lojas-horarios-bloco8": {
                     "props": {
                       "text": "Segunda à Sábado: 09:00 às 22:00 \n Domingos e feriados: 14:00 às 20:00",
@@ -622,7 +623,7 @@
                         "blockClass": "como-chegar-loja"
                       }
                     },
-        
+
 
                     "flex-layout.row#nossas-lojas-bloco-5": {
                         "children": ["flex-layout.row#nnossas-lojas-bloco9", "flex-layout.row#nnossas-lojas-bloco10"],
@@ -640,7 +641,7 @@
                   },
                   "flex-layout.col#text-nossas-lojas-bloco9": {
                     "children": [
-                      "rich-text#nossas-lojas-title-bloco9", 
+                      "rich-text#nossas-lojas-title-bloco9",
                       "rich-text#nossas-lojas-end-bloco9",
                       "rich-text#nossas-lojas-end-telefone-loja-bloco9",
                    //  "rich-text#nossas-lojas-whatsapp-bloco9",
@@ -669,16 +670,16 @@
                       "blockClass": "telefone-fixo"
                     }
                   },
-        
-        
+
+
                   "rich-text#nossas-lojas-whatsapp-bloco9": {
                     "props": {
                       "text": "0",
                       "blockClass": "nossas-lojas-whats"
                     }
                   },
-                  
-                  
+
+
                   "rich-text#nossas-lojas-horarios-bloco9": {
                     "props": {
                       "text": "Segunda à Sábado: 09:00 às 22:00 \n Domingos e feriados: 14:00 às 20:00",
@@ -700,7 +701,7 @@
                   },
                   "flex-layout.col#text-nossas-lojas-bloco10": {
                     "children": [
-                      "rich-text#nossas-lojas-title-bloco10", 
+                      "rich-text#nossas-lojas-title-bloco10",
                       "rich-text#nossas-lojas-end-bloco10",
                       "rich-text#nossas-lojas-end-telefone-loja-bloco10",
                    //  "rich-text#nossas-lojas-whatsapp-bloco9",
@@ -729,16 +730,16 @@
                       "blockClass": "telefone-fixo"
                     }
                   },
-        
-        
+
+
                   "rich-text#nossas-lojas-whatsapp-bloco10": {
                     "props": {
                       "text": "0",
                       "blockClass": "nossas-lojas-whats"
                     }
                   },
-                  
-                  
+
+
                   "rich-text#nossas-lojas-horarios-bloco10": {
                     "props": {
                       "text": "Segunda à Sábado: 09:00 às 20:00 \n Domingos: 10:00 às 18:00 \n Feriados:10:00 às 16:00",
