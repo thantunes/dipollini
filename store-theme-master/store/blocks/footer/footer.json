@@ -47,6 +47,7 @@
           "text":"*Cadastre-se na nossa newsletter* \n Fique por dentro das novidades e lançamentos",
           "blockClass": "texto-news-mobile"
         }
+       
       },
   
 
@@ -92,7 +93,9 @@
     "children": [
       "image#logofooter",
       "social-networks",
-      "rich-text#contatofooter"
+      "rich-text#contatofooter",
+      "image#membroaceleravarejo"
+
 
     ],
     "props": {
@@ -114,6 +117,18 @@
       }
     },
 
+
+    "image#membroaceleravarejo": {
+      "props": {
+        "src": "https://dipollini.vtexassets.com/assets/vtex.file-manager-graphql/images/b0cadb99-0fc2-45be-9c16-34509537f0a6___c51bd45a09a36e5cb68c6bdb9fdc6562.jpeg",
+        "blockClass": "imagemembroaceleravarejo",
+        "link":{
+            "newTab":"true",
+            "url":"https://www.aceleravarejo.com.br/"
+  
+          }
+      }
+    },
 
     "flex-layout.col#formas-de-pagamento-e-seguranca":{
       "children": [
@@ -296,7 +311,8 @@
   "flex-layout.row#logo-sociais-mobile-mobile":{
     "children": [
       "image#logofooter",
-      "social-networks"
+      "social-networks",
+      "image#membroaceleravarejo"
     ],
     "props": {
       "blockClass": "logo-sociais-mobile"
