@@ -14,6 +14,12 @@
 /* ---------------------- END - CAMPANHA CARNAVAL ---------------------- */
 
 
+:global(.vtex-store-components-3-x-imageElement--imagemembroaceleravarejo){
+    max-width: 130px;
+    display: block;
+    margin-left: 45px;
+    border-radius: 15px;
+}
 
 :global(.yourviews-yourviewsreviews-1-x-reviewsSectionTitle){
     color: #493030;
@@ -2095,6 +2101,8 @@ color: #493030;
 
 @media screen and (max-width: 980px){
     :global(.banner-departamento-desktop){display:none;}
+
+    :global(.vtex-store-components-3-x-imageElement--imagemembroaceleravarejo){    margin: auto;}
 }
 
 
