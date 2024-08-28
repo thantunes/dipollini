@@ -35,13 +35,14 @@
       "flex-layout.row#shelf-casual",
       "rich-text#shelf-title-esportiva",
       "flex-layout.row#shelf-esportiva",
-      "flex-layout.row#home-sobre-a-dipollini"
-      
-   
+      "flex-layout.row#home-sobre-a-dipollini",
+      "testimonials"
+
+
 
    //   "rich-text#question",
     //  "rich-text#link",
-  
+
     ]
   },
 
@@ -219,7 +220,7 @@
       "showPaginationDots":"never"
     },
     "children": [
-      "image#carrousel-maggiore", 
+      "image#carrousel-maggiore",
       "image#carrousel-social",
       "image#carrousel-sapatenis",
       "image#carrousel-casual",
@@ -240,7 +241,7 @@
         "url":"/maggiore"
       }
     }
-    
+
   },
 
   "image#carrousel-social": {
@@ -341,7 +342,7 @@
       "showPaginationDots":"never"
     },
     "children": [
-      "image#carrousel-sapato-feminino", 
+      "image#carrousel-sapato-feminino",
       "image#carrousel-tenis-feminino",
       "image#carrousel-sandalias-feminino",
       "image#carrousel-sapatilhas-feminino",
@@ -360,7 +361,7 @@
         "url":"/sapatos---feminino"
       }
     }
-    
+
   },
 
 
@@ -371,9 +372,9 @@
         "url":"/tenis---feminino"
       }
     }
-    
+
   },
-  
+
   "image#carrousel-sandalias-feminino": {
     "props": {
       "src": "/arquivos/slider-home-io-sandalias-v2.png",
@@ -381,12 +382,12 @@
         "url":"/sandalias---feminino"
       }
     }
-    
+
   },
 
 
 
-   
+
   "image#carrousel-sapatilhas-feminino": {
     "props": {
       "src": "/arquivos/slider-home-io-sapatilhas-v2.png",
@@ -394,7 +395,7 @@
         "url":"/sapatilhas---feminino"
       }
     }
-    
+
   },
 
 
@@ -406,7 +407,7 @@
         "url":"/rasteiras---feminino"
       }
     }
-    
+
   },
 
 
@@ -419,7 +420,7 @@
         "url":"/botas---feminino"
       }
     }
-    
+
   },
 
 
@@ -434,7 +435,7 @@
         "url":"/bolsas"
       }
     }
-    
+
   },
 
 
@@ -657,9 +658,9 @@
       "callToActionUrl": "/",
       "blockClass": "info-card-home",
       "textAlignment": "left"
-     
+
     }
-    
+
   },
 
 
@@ -770,9 +771,9 @@
 
   "flex-layout.row#home-sobre-a-dipollini": {
     "children": ["image#home-sobre-a-dipollini", "flex-layout.col#text-home-sobre-a-dipollini"],
-    
+
     "props": {
-     
+
       "blockClass": "bloco-sobre-a-dipollini"
     }
 
@@ -818,9 +819,9 @@
 
 "flex-layout.row#home-ela-voltou": {
   "children": ["image#home-home-ela-voltou", "flex-layout.col#text-home-home-ela-voltou"],
-  
+
   "props": {
-   
+
     "blockClass": "bloco-home-ela-voltou"
   }
 
@@ -856,9 +857,9 @@
 
 "flex-layout.row#home-ela-voltou-mobile": {
   "children": ["image#home-home-ela-voltou-mobile"],
-  
+
   "props": {
-   
+
     "blockClass": "bloco-home-ela-voltou-mobile"
   }
 

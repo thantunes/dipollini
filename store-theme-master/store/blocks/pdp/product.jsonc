@@ -6,18 +6,18 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts"
-
-     
-     // "yv-product-reviews",
-     // "yv-product-questions-and-answers"
+      "shelf.relatedProducts",
+      "yv-product-reviews",
+      "yv-product-questions-and-answers"
     ],
     "props": {
       "blockClass": "pagina-de-produto"
     }
   },
   "flex-layout.row#specifications-title": {
-    "children": ["rich-text#specifications"]
+    "children": [
+      "rich-text#specifications"
+    ]
   },
   "rich-text#specifications": {
     "props": {
@@ -28,13 +28,17 @@
     "props": {
       "marginTop": 4
     },
-    "children": ["breadcrumb"]
+    "children": [
+      "breadcrumb"
+    ]
   },
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
     },
-    "children": ["product-description"]
+    "children": [
+      "product-description"
+    ]
   },
   "condition-layout.product#availability": {
     "props": {
@@ -56,9 +60,11 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
   },
-
   "stack-layout": {
     "props": {
       "blockClass": "product"
@@ -69,7 +75,6 @@
       "product-specification-badges"
     ]
   },
-
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
@@ -78,25 +83,26 @@
       "displayValue": "SPECIFICATION_NAME"
     }
   },
-
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": [
+      "stack-layout"
+    ],
     "props": {
       "width": "70%",
       "rowGap": 0
     }
   },
   "flex-layout.row#product-image": {
-    "children": ["product-images"]
+    "children": [
+      "product-images"
+    ]
   },
   "product-images": {
     "props": {
-
-"displayMode":"carousel",
-"thumbnailsOrientation":"horizontal",
-"showPaginationDots":"false",
-//"maxHeight":"400",
-
+      "displayMode": "carousel",
+      "thumbnailsOrientation": "horizontal",
+      "showPaginationDots": "false",
+      //"maxHeight":"400",
       "aspectRatio": {
         "desktop": "auto",
         "phone": "1:1"
@@ -110,86 +116,68 @@
       "rowGap": 0
     },
     "children": [
-      
       "flex-layout.row#product-name",
-      //"yv-product-rating-summary",
+      "yv-product-rating-summary",
       "product-price-savings#summaryPercentage",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
       "product-separator",
       "product-identifier.product",
-     "sku-selector",
+      "sku-selector",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
-
       "availability-subscriber",
       "shipping-simulator",
       "flex-layout.row#botao-atendente-whats",
       "share#default"
     ]
   },
-
-
-
-
-
-
-
-
-
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
     },
-    "children": ["vtex.store-components:product-name"]
+    "children": [
+      "vtex.store-components:product-name"
+    ]
   },
-
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true,
-      "showValueForVariation":"all"
-      
+      "showValueForVariation": "all"
     }
   },
-
-
-
   "flex-layout.row#botao-atendente-whats": {
     "props": {
-      "blockClass":"botao-whats-pdp"
+      "blockClass": "botao-whats-pdp"
     },
-    "children": ["image#botao-atendente-whats"]
+    "children": [
+      "image#botao-atendente-whats"
+    ]
   },
-
- 
-
-
   "image#botao-atendente-whats": {
     "props": {
       "src": "/arquivos/bt-falar-com-atendente-pdp-v2.png",
-      "link":{
-        "url":"https://api.whatsapp.com/send?phone=5511975582456",
-        "newTab":true
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=5511975582456",
+        "newTab": true
       }
-  
     }
   },
-
-
-
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass":"botao-comprar-pdp"
+      "blockClass": "botao-comprar-pdp"
     },
-    "children": ["add-to-cart-button","add-to-list-btn"]
+    "children": [
+      "add-to-cart-button",
+      "add-to-list-btn"
+    ]
   },
-
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,
@@ -219,10 +207,10 @@
     "props": {
       "blockClass": "message-availability"
     },
-    "children": ["availability-subscriber"]
+    "children": [
+      "availability-subscriber"
+    ]
   },
-
-
   "share#default": {
     "props": {
       "social": {
@@ -233,10 +221,4 @@
       }
     }
   }
-
-
-
-
-
-
 }
