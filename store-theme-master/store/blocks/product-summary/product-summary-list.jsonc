@@ -188,8 +188,8 @@
     },
     "children": [
       "vtex.store-components:product-brand#summaryListMobile",
-      "product-summary-name#summaryListMobile"
-    //  "yv-product-rating-inline"
+      "product-summary-name#summaryListMobile",
+     "yv-product-rating-inline"
     ]
   },
   "flex-layout.col#summaryDownDetailsListMobile": {

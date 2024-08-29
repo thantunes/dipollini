@@ -3,6 +3,7 @@
     "children": [
       "add-to-list-btn",
       "stack-layout#prodsum",
+      "yv-product-rating-inline",
       "product-summary-name",
    //   "flex-layout.col#productRating",
       "product-summary-space",
@@ -10,7 +11,7 @@
 
       "product-price-savings#summaryPercentage",
 
- 
+
       "product-summary-sku-selector",
 
 
@@ -18,7 +19,7 @@
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
 
-      
+
       "add-to-cart-button"
     ]
   },
