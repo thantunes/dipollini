@@ -5,7 +5,7 @@
     },
     "children": [
       "menu-item#ele",
-      "menu-item#dia-dos-pais",
+      // "menu-item#dia-dos-pais",
       "menu-item#ela",
 
       "menu-item#nossas-lojas",
