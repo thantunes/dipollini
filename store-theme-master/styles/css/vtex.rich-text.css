@@ -67,6 +67,10 @@
   font-weight: 700;
 }
 
+.paragraph--outlet-message {
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -92,5 +96,10 @@
 @media only screen and (max-width: 768px) {
   .wrapper--promo-dipo-title .paragraph {
     margin-bottom: 24px;
+  }
+
+  .paragraph--outlet-message {
+    margin: 20px 0;
+    text-align: center;
   }
 }
